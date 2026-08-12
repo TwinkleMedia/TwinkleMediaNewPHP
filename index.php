@@ -1216,6 +1216,665 @@
   </section>
 
 
+  <?php 
+  include "./homework.php"
+  ?>
+  <?php 
+  include "./showcasereel.php"
+  ?>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+<section class="w-full overflow-hidden bg-[#090b0d] py-16 sm:py-20 lg:py-24">
+
+  <div class="mx-auto w-full max-w-[1320px] px-5 sm:px-8 lg:px-10">
+
+    <!-- =========================================
+         HEADER
+    ========================================== -->
+
+    <div class="flex flex-col justify-between gap-8 lg:flex-row lg:items-end">
+
+      <!-- Left -->
+
+      <div>
+
+        <p class="mb-6 text-[10px] font-medium uppercase tracking-[0.22em] text-[#f28a24]">
+          Client Trust
+        </p>
+
+        <h2 class="font-serif text-[38px] leading-[1.05] tracking-[-0.035em] text-[#f5f1eb] sm:text-[48px] lg:text-[58px]">
+          What Our Clients Say
+        </h2>
+
+      </div>
+
+
+      <!-- Right -->
+
+      <p class="max-w-[350px] text-[12px] font-normal leading-[1.65] text-[#92989d] lg:mb-1">
+        Placeholder cards shown below. Once the Google Business profile is
+        connected, real reviews replace this content directly.
+      </p>
+
+    </div>
+
+
+    <!-- =========================================
+         REVIEWS
+    ========================================== -->
+
+    <div
+      id="reviewsTrack"
+      class="mt-12 flex gap-4 overflow-x-auto pb-2 snap-x snap-mandatory [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:mt-14 lg:grid lg:grid-cols-4 lg:gap-[18px] lg:overflow-visible"
+    >
+
+
+      <!-- =======================================
+           REVIEW 1
+      ======================================== -->
+
+      <article
+        class="review-card flex w-[calc(100vw-90px)] min-w-[calc(100vw-90px)] flex-none snap-start flex-col border border-[#292d30] bg-[#0b0d0f] p-5 sm:w-[360px] sm:min-w-[360px] sm:p-6 lg:w-auto lg:min-w-0"
+      >
+
+        <!-- Top -->
+
+        <div class="flex items-center justify-between">
+
+          <!-- Stars -->
+
+          <div class="flex items-center gap-[2px] text-[#f28a24]">
+
+            <span class="text-[16px]">★</span>
+            <span class="text-[16px]">★</span>
+            <span class="text-[16px]">★</span>
+            <span class="text-[16px]">★</span>
+            <span class="text-[16px]">★</span>
+
+          </div>
+
+
+          <!-- Google -->
+
+          <div class="text-[20px] font-bold leading-none text-[#4285F4]">
+            G
+          </div>
+
+        </div>
+
+
+        <!-- Review -->
+
+        <p class="mt-6 min-h-[92px] text-[13px] font-normal leading-[1.65] text-[#d1d3d4] sm:text-[14px]">
+          Placeholder review text. Replace this card with a real Google
+          review once the Google Business profile is connected.
+        </p>
+
+
+        <!-- Divider -->
+
+        <div class="mt-6 border-t border-[#292d30]"></div>
+
+
+        <!-- Reviewer -->
+
+        <div class="mt-5 flex items-center gap-3">
+
+          <div class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[#25292d] text-[12px] text-[#9ca1a5]">
+            ?
+          </div>
+
+          <p class="truncate text-[11px] font-normal text-[#92989d]">
+            Reviewer Name (Placeholder)
+          </p>
+
+        </div>
+
+      </article>
+
+
+
+      <!-- =======================================
+           REVIEW 2
+      ======================================== -->
+
+      <article
+        class="review-card flex w-[calc(100vw-90px)] min-w-[calc(100vw-90px)] flex-none snap-start flex-col border border-[#292d30] bg-[#0b0d0f] p-5 sm:w-[360px] sm:min-w-[360px] sm:p-6 lg:w-auto lg:min-w-0"
+      >
+
+        <div class="flex items-center justify-between">
+
+          <div class="flex items-center gap-[2px] text-[#f28a24]">
+
+            <span class="text-[16px]">★</span>
+            <span class="text-[16px]">★</span>
+            <span class="text-[16px]">★</span>
+            <span class="text-[16px]">★</span>
+            <span class="text-[16px]">★</span>
+
+          </div>
+
+
+          <div class="text-[20px] font-bold leading-none text-[#4285F4]">
+            G
+          </div>
+
+        </div>
+
+
+        <p class="mt-6 min-h-[92px] text-[13px] font-normal leading-[1.65] text-[#d1d3d4] sm:text-[14px]">
+          Placeholder review text. Each card supports a reviewer name,
+          star rating and up to roughly three lines of review copy.
+        </p>
+
+
+        <div class="mt-6 border-t border-[#292d30]"></div>
+
+
+        <div class="mt-5 flex items-center gap-3">
+
+          <div class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[#25292d] text-[12px] text-[#9ca1a5]">
+            ?
+          </div>
+
+          <p class="truncate text-[11px] font-normal text-[#92989d]">
+            Reviewer Name (Placeholder)
+          </p>
+
+        </div>
+
+      </article>
+
+
+
+      <!-- =======================================
+           REVIEW 3
+      ======================================== -->
+
+      <article
+        class="review-card flex w-[calc(100vw-90px)] min-w-[calc(100vw-90px)] flex-none snap-start flex-col border border-[#292d30] bg-[#0b0d0f] p-5 sm:w-[360px] sm:min-w-[360px] sm:p-6 lg:w-auto lg:min-w-0"
+      >
+
+        <div class="flex items-center justify-between">
+
+          <div class="flex items-center gap-[2px] text-[#f28a24]">
+
+            <span class="text-[16px]">★</span>
+            <span class="text-[16px]">★</span>
+            <span class="text-[16px]">★</span>
+            <span class="text-[16px]">★</span>
+            <span class="text-[16px]">★</span>
+
+          </div>
+
+
+          <div class="text-[20px] font-bold leading-none text-[#4285F4]">
+            G
+          </div>
+
+        </div>
+
+
+        <p class="mt-6 min-h-[92px] text-[13px] font-normal leading-[1.65] text-[#d1d3d4] sm:text-[14px]">
+          Placeholder review text. Ratings, names and images are all
+          data-driven and easy to swap later.
+        </p>
+
+
+        <div class="mt-6 border-t border-[#292d30]"></div>
+
+
+        <div class="mt-5 flex items-center gap-3">
+
+          <div class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[#25292d] text-[12px] text-[#9ca1a5]">
+            ?
+          </div>
+
+          <p class="truncate text-[11px] font-normal text-[#92989d]">
+            Reviewer Name (Placeholder)
+          </p>
+
+        </div>
+
+      </article>
+
+
+
+      <!-- =======================================
+           REVIEW 4
+      ======================================== -->
+
+      <article
+        class="review-card flex w-[calc(100vw-90px)] min-w-[calc(100vw-90px)] flex-none snap-start flex-col border border-[#292d30] bg-[#0b0d0f] p-5 sm:w-[360px] sm:min-w-[360px] sm:p-6 lg:w-auto lg:min-w-0"
+      >
+
+        <div class="flex items-center justify-between">
+
+          <!-- 4 Full Stars + 1 Empty -->
+
+          <div class="flex items-center gap-[2px]">
+
+            <span class="text-[16px] text-[#f28a24]">★</span>
+            <span class="text-[16px] text-[#f28a24]">★</span>
+            <span class="text-[16px] text-[#f28a24]">★</span>
+            <span class="text-[16px] text-[#f28a24]">★</span>
+            <span class="text-[16px] text-[#45484b]">☆</span>
+
+          </div>
+
+
+          <div class="text-[20px] font-bold leading-none text-[#4285F4]">
+            G
+          </div>
+
+        </div>
+
+
+        <p class="mt-6 min-h-[92px] text-[13px] font-normal leading-[1.65] text-[#d1d3d4] sm:text-[14px]">
+          Placeholder review text. Mixed ratings render correctly,
+          so real reviews can be dropped in as-is.
+        </p>
+
+
+        <div class="mt-6 border-t border-[#292d30]"></div>
+
+
+        <div class="mt-5 flex items-center gap-3">
+
+          <div class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[#25292d] text-[12px] text-[#9ca1a5]">
+            ?
+          </div>
+
+          <p class="truncate text-[11px] font-normal text-[#92989d]">
+            Reviewer Name (Placeholder)
+          </p>
+
+        </div>
+
+      </article>
+
+    </div>
+
+
+    <!-- =========================================
+         GOOGLE LINK
+    ========================================== -->
+
+    <div class="mt-10">
+
+      <a
+        href="#"
+        class="group inline-flex flex-col items-start"
+      >
+
+        <span class="flex items-center gap-3 text-[10px] font-medium uppercase tracking-[0.18em] text-[#f28a24] transition-colors duration-300 group-hover:text-[#ff9d3f]">
+
+          See More Reviews on Google
+
+          <span class="text-[15px] leading-none transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1">
+            ↗
+          </span>
+
+        </span>
+
+
+        <!-- Orange underline -->
+
+        <span class="mt-2 block h-px w-full bg-[#f28a24]"></span>
+
+      </a>
+
+    </div>
+
+  </div>
+
+</section>  
+
+<!-- =========================================
+     TRUSTED BY BRANDS
+========================================== -->
+
+<section class="w-full overflow-hidden bg-[#171a1c]">
+
+  <!-- =========================================
+       HEADER
+  ========================================== -->
+
+  <div class="mx-auto w-full max-w-[1320px] px-5 py-14 sm:px-8 sm:py-16 lg:px-10 lg:py-20">
+
+    <div class="flex flex-col gap-6 sm:gap-7 lg:flex-row lg:items-center lg:justify-between">
+
+      <!-- Heading -->
+
+      <h2 class="font-serif text-[36px] leading-[1.05] tracking-[-0.035em] text-[#f5f1eb] sm:text-[44px] lg:text-[48px]">
+        Trusted By Brands
+      </h2>
+
+
+    
+
+    </div>
+
+  </div>
+
+
+  <!-- =========================================
+       LOGO MARQUEE
+  ========================================== -->
+
+  <div class="border-y border-[#2b2f32]">
+
+    <div
+      id="brandLogoViewport"
+      class="relative w-full overflow-hidden"
+    >
+
+      <div
+        id="brandLogoTrack"
+        class="flex w-max"
+      >
+
+
+        <!-- =====================================
+             LOGO 01
+        ====================================== -->
+
+        <div
+          class="brand-logo flex h-[125px] w-[285px] flex-none items-center justify-center border-r border-[#25292c] px-12 sm:h-[135px] sm:w-[310px] sm:px-14 lg:h-[125px] lg:w-[285px] lg:px-12"
+        >
+
+          <img
+            src="./assets/meridianLogo.webp"
+            alt="Meridian Logo"
+            class="max-h-14 max-w-[180px] object-contain"
+          >
+
+        </div>
+
+
+        <!-- =====================================
+             LOGO 02
+        ====================================== -->
+
+        <div
+          class="brand-logo flex h-[125px] w-[285px] flex-none items-center justify-center border-r border-[#25292c] px-12 sm:h-[135px] sm:w-[310px] sm:px-14 lg:h-[125px] lg:w-[285px] lg:px-12"
+        >
+
+          <img
+            src="./assets/nandiInternationalLogo.webp"
+            alt="Nandi International Logo"
+            class="max-h-14 max-w-[180px] object-contain"
+          >
+
+        </div>
+
+
+        <!-- =====================================
+             LOGO 03
+        ====================================== -->
+
+        <div
+          class="brand-logo flex h-[125px] w-[285px] flex-none items-center justify-center border-r border-[#25292c] px-12 sm:h-[135px] sm:w-[310px] sm:px-14 lg:h-[125px] lg:w-[285px] lg:px-12"
+        >
+
+          <img
+            src="./assets/rapidiseLogo.webp"
+            alt="Rapidise Logo"
+            class="max-h-14 max-w-[180px] object-contain"
+          >
+
+        </div>
+
+
+        <!-- =====================================
+             LOGO 04
+        ====================================== -->
+
+        <div
+          class="brand-logo flex h-[125px] w-[285px] flex-none items-center justify-center border-r border-[#25292c] px-12 sm:h-[135px] sm:w-[310px] sm:px-14 lg:h-[125px] lg:w-[285px] lg:px-12"
+        >
+
+          <img
+            src="./assets/ecdipluslogo.webp"
+            alt="ECDIS Plus Logo"
+            class="max-h-14 max-w-[180px] object-contain"
+          >
+
+        </div>
+
+
+        <!-- =====================================
+             LOGO 05
+        ====================================== -->
+
+        <div
+          class="brand-logo flex h-[125px] w-[285px] flex-none items-center justify-center border-r border-[#25292c] px-12 sm:h-[135px] sm:w-[310px] sm:px-14 lg:h-[125px] lg:w-[285px] lg:px-12"
+        >
+
+          <img
+            src="./assets/aryanclient1.webp"
+            alt="Aryan Devcon Logo"
+            class="max-h-14 max-w-[180px] object-contain"
+          >
+
+        </div>
+
+
+        <!-- =====================================
+             LOGO 06
+        ====================================== -->
+
+        <div
+          class="brand-logo flex h-[125px] w-[285px] flex-none items-center justify-center border-r border-[#25292c] px-12 sm:h-[135px] sm:w-[310px] sm:px-14 lg:h-[125px] lg:w-[285px] lg:px-12"
+        >
+
+          <img
+            src="./assets/finelogo.webp"
+            alt="Fine Logo"
+            class="max-h-14 max-w-[180px] object-contain"
+          >
+
+        </div>
+
+
+        <!-- =====================================
+             LOGO 07
+        ====================================== -->
+
+        <div
+          class="brand-logo flex h-[125px] w-[285px] flex-none items-center justify-center border-r border-[#25292c] px-12 sm:h-[135px] sm:w-[310px] sm:px-14 lg:h-[125px] lg:w-[285px] lg:px-12"
+        >
+
+          <img
+            src="./assets/samalaLogo.webp"
+            alt="Samala Logo"
+            class="max-h-14 max-w-[180px] object-contain"
+          >
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================================
+     AUTO LOGO SCROLL
+========================================== -->
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  const track = document.getElementById("brandLogoTrack");
+  const viewport = document.getElementById("brandLogoViewport");
+
+  if (!track || !viewport) return;
+
+
+  /* ==========================================
+     DUPLICATE LOGOS
+  ========================================== */
+
+  const originalLogos = Array.from(
+    track.querySelectorAll(".brand-logo")
+  );
+
+
+  originalLogos.forEach(function (logo) {
+
+    const clone = logo.cloneNode(true);
+
+    clone.setAttribute("aria-hidden", "true");
+
+    track.appendChild(clone);
+
+  });
+
+
+  /* ==========================================
+     AUTO SCROLL
+  ========================================== */
+
+  let position = 0;
+
+  const speed = 0.45;
+
+  let isPaused = false;
+
+
+  /* ==========================================
+     GET ORIGINAL LOGO WIDTH
+  ========================================== */
+
+  function getOriginalWidth() {
+
+    let width = 0;
+
+    originalLogos.forEach(function (logo) {
+
+      width += logo.getBoundingClientRect().width;
+
+    });
+
+    return width;
+
+  }
+
+
+  let originalWidth = getOriginalWidth();
+
+
+  /* ==========================================
+     ANIMATION
+  ========================================== */
+
+  function animate() {
+
+    if (!isPaused) {
+
+      position += speed;
+
+
+      if (position >= originalWidth) {
+
+        position = 0;
+
+      }
+
+
+      track.style.transform =
+        "translate3d(-" + position + "px, 0, 0)";
+
+    }
+
+
+    requestAnimationFrame(animate);
+
+  }
+
+
+  animate();
+
+
+  /* ==========================================
+     PAUSE ON HOVER
+  ========================================== */
+
+  viewport.addEventListener("mouseenter", function () {
+
+    isPaused = true;
+
+  });
+
+
+  viewport.addEventListener("mouseleave", function () {
+
+    isPaused = false;
+
+  });
+
+
+  /* ==========================================
+     MOBILE TOUCH
+  ========================================== */
+
+  viewport.addEventListener(
+    "touchstart",
+    function () {
+
+      isPaused = true;
+
+    },
+    {
+      passive: true
+    }
+  );
+
+
+  viewport.addEventListener(
+    "touchend",
+    function () {
+
+      setTimeout(function () {
+
+        isPaused = false;
+
+      }, 800);
+
+    },
+    {
+      passive: true
+    }
+  );
+
+
+  /* ==========================================
+     RESPONSIVE WIDTH
+  ========================================== */
+
+  window.addEventListener("resize", function () {
+
+    originalWidth = getOriginalWidth();
+
+  });
+
+});
+
+</script>
+
+
+
+<?php 
+include "./footer.php"
+?>
+ 
 </body>
 
 </html>
