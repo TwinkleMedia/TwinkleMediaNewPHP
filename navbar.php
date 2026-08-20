@@ -38,7 +38,7 @@
       ================================================== -->
 
       <a
-        href="#"
+        href="./index.php"
         class="flex shrink-0 items-center"
       >
         <img
@@ -58,21 +58,21 @@
       >
 
         <a
-          href="#"
+          href="./index.php"
           class="font-['Montserrat'] text-[14px] font-medium text-white/75 no-underline transition-colors duration-300 hover:text-white"
         >
           Home
         </a>
 
         <a
-          href="#"
+          href="./aboutuspage.php"
           class="font-['Montserrat'] text-[14px] font-medium text-white/75 no-underline transition-colors duration-300 hover:text-white"
         >
           About
         </a>
 
         <a
-          href="#"
+          href="./serviecpage.php"
           class="font-['Montserrat'] text-[14px] font-medium text-white/75 no-underline transition-colors duration-300 hover:text-white"
         >
           Services
@@ -82,18 +82,18 @@
           href="#"
           class="font-['Montserrat'] text-[14px] font-medium text-white/75 no-underline transition-colors duration-300 hover:text-white"
         >
-          Media
+          Team
         </a>
 
         <a
-          href="#"
+          href="./careerpage.php"
           class="font-['Montserrat'] text-[14px] font-medium text-white/75 no-underline transition-colors duration-300 hover:text-white"
         >
-          Reviews
+          Career
         </a>
 
         <a
-          href="#"
+          href="./contactus.php"
           class="font-['Montserrat'] text-[14px] font-medium text-white/75 no-underline transition-colors duration-300 hover:text-white"
         >
           Contact
@@ -110,7 +110,7 @@
         href="#"
         class="hidden h-[40px] min-w-[246px] items-center justify-center border border-[#ed963c] px-[22px] font-['Montserrat'] text-[11px] font-semibold uppercase tracking-[1.5px] text-[#ed963c] no-underline transition-all duration-300 hover:bg-[#ed963c] hover:text-[#0b0c0e] lg:flex"
       >
-        Talk to Our Marketing Expert
+         Download Brochure
       </a>
 
 
