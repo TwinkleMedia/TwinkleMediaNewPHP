@@ -274,6 +274,7 @@
      WHAT WE DO / SERVICES SECTION
 ====================================================== -->
 
+
   <section
     id="services"
     class="w-full bg-[#171a1d] px-6 py-20 sm:px-8 md:px-12 md:py-24 lg:px-16 lg:py-28 xl:px-24">
@@ -293,7 +294,7 @@
         <div>
 
           <h2
-            class="reveal font-['Playfair_Display'] text-[48px] font-normal leading-none tracking-[-2px] text-[#f5f3ef] sm:text-[58px] md:text-[64px] lg:text-[68px]">
+            class="font-['Playfair_Display',serif] text-3xl sm:text-4xl md:text-5xl leading-tight text-[#f5f1eb]">
             What We Do
           </h2>
 
@@ -306,7 +307,7 @@
           class="max-w-[420px] md:ml-auto">
 
           <p
-            class="reveal reveal-delay-1 font-['Montserrat'] text-[13px] font-normal leading-[1.65] text-[#4563B5] sm:text-[14px] md:text-[15px]">
+            class="font-['Montserrat'] text-[13px] font-normal leading-[1.65] text-[#4563B5] sm:text-[14px] md:text-[15px]">
             Eight disciplines, one team. Every engagement is
             assembled from the services your brand actually
             needs — nothing padded, nothing generic.
@@ -321,560 +322,399 @@
          SERVICES GRID
     ================================================== -->
 
-      <div
-        class="grid grid-cols-1 border-l border-t border-white/10 sm:grid-cols-2 lg:grid-cols-4">
+    <!-- =================================================
+     SERVICES GRID
+================================================== -->
 
+<div
+  class="grid grid-cols-1 border-l border-t border-white/10 sm:grid-cols-2 lg:grid-cols-4">
 
-        <!-- =================================================
-           CARD 01
-      ================================================== -->
+  <!-- =================================================
+     CARD 01
+  ================================================== -->
 
-        <div
-          class="reveal group relative min-h-[320px] overflow-hidden border-b border-r border-white/10">
+  <a
+    href="./servicecommerial.php"
+    class="group relative block min-h-[320px] overflow-hidden border-b border-r border-white/10 cursor-pointer">
 
-          <!-- BACKGROUND IMAGE -->
+    <!-- BACKGROUND IMAGE -->
+    <div
+      class="absolute inset-0 z-0 opacity-0 transition-opacity duration-500 ease-out group-hover:opacity-100">
 
-          <div
-            class="absolute inset-0 z-0 opacity-0 transition-opacity duration-500 ease-out group-hover:opacity-100">
+      <img
+        src="./assets/commercial2.webp"
+        alt="Commercial Ads"
+        class="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" />
 
-            <img
-              src="./assets/commercial2.webp"
-              alt=""
-              class="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" />
+      <div class="absolute inset-0 bg-black/50"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-black/65 via-black/30 to-black/10"></div>
+    </div>
 
-            <!-- IMAGE DARK OVERLAY -->
+    <!-- CARD CONTENT -->
+    <div class="relative z-10 flex h-full min-h-[320px] flex-col p-6 sm:p-7">
 
-            <div class="absolute inset-0 bg-black/50"></div>
+      <div class="flex items-center justify-between">
+        <span class="font-['Playfair_Display'] text-[18px] font-normal text-[#ed963c]">
+          01
+        </span>
 
-            <div
-              class="absolute inset-0 bg-gradient-to-t from-black/65 via-black/30 to-black/10"></div>
+        <span class="font-['Montserrat'] text-[18px] font-light text-white/60 transition-all duration-300 group-hover:translate-x-1 group-hover:text-white">
+          ↗
+        </span>
+      </div>
 
-          </div>
+      <div class="mt-auto">
+        <h3 class="font-['Playfair_Display'] text-[29px] font-normal leading-[1.05] tracking-[-0.8px] text-[#f5f3ef] sm:text-[30px]">
+          Commercial Ads
+        </h3>
 
+        <p class="mt-5 max-w-[280px] font-['Montserrat'] text-[12px] font-normal leading-[1.65] text-white/55 transition-colors duration-300 group-hover:text-white/75">
+          Creative advertising campaigns designed to capture attention and drive action.
+        </p>
 
-          <!-- CARD CONTENT -->
-
-          <div
-            class="relative z-10 flex h-full min-h-[320px] flex-col p-6 sm:p-7">
-
-            <!-- NUMBER + ARROW -->
-
-            <div
-              class="flex items-center justify-between">
-
-              <span
-                class="font-['Playfair_Display'] text-[18px] font-normal text-[#ed963c]">
-                01
-              </span>
-
-              <span
-                class="font-['Montserrat'] text-[18px] font-light text-white/60 transition-all duration-300 group-hover:translate-x-1 group-hover:text-white">
-                ↗
-              </span>
-
-            </div>
-
-
-            <!-- CONTENT -->
-
-            <div
-              class="mt-auto">
-
-              <h3
-                class="font-['Playfair_Display'] text-[29px] font-normal leading-[1.05] tracking-[-0.8px] text-[#f5f3ef] sm:text-[30px]">
-                Commercial Ads
-              </h3>
-
-              <p
-                class="mt-5 max-w-[280px] font-['Montserrat'] text-[12px] font-normal leading-[1.65] text-white/55 transition-colors duration-300 group-hover:text-white/75">
-                Creative advertising campaigns designed to
-                capture attention and drive action.
-              </p>
-
-              <div
-                class="mt-5 font-['Montserrat'] text-[9px] font-semibold uppercase tracking-[2px] text-[#ed963c] opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Explore
-              </div>
-
-            </div>
-
-          </div>
-
+        <div class="mt-5 font-['Montserrat'] text-[9px] font-semibold uppercase tracking-[2px] text-[#ed963c] opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+          Explore
         </div>
+      </div>
+    </div>
+  </a>
 
 
-        <!-- =================================================
-           CARD 02
-      ================================================== -->
+  <!-- =================================================
+     CARD 02
+  ================================================== -->
 
-        <div
-          class="reveal reveal-delay-1 group relative min-h-[320px] overflow-hidden border-b border-r border-white/10">
+  <a
+    href="./smmservice.php"
+    class="group relative block min-h-[320px] overflow-hidden border-b border-r border-white/10 cursor-pointer">
 
-          <div
-            class="absolute inset-0 z-0 opacity-0 transition-opacity duration-500 ease-out group-hover:opacity-100">
+    <div class="absolute inset-0 z-0 opacity-0 transition-opacity duration-500 ease-out group-hover:opacity-100">
 
-            <img
-              src="./assets/SMM.jpg"
-              alt=""
-              class="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" />
+      <img
+        src="./assets/SMM.jpg"
+        alt="Social Media Marketing"
+        class="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" />
 
-            <div class="absolute inset-0 bg-black/50"></div>
+      <div class="absolute inset-0 bg-black/50"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-black/65 via-black/30 to-black/10"></div>
+    </div>
 
-            <div
-              class="absolute inset-0 bg-gradient-to-t from-black/65 via-black/30 to-black/10"></div>
+    <div class="relative z-10 flex h-full min-h-[320px] flex-col p-6 sm:p-7">
 
-          </div>
+      <div class="flex items-center justify-between">
+        <span class="font-['Playfair_Display'] text-[18px] text-[#ed963c]">02</span>
 
+        <span class="font-['Montserrat'] text-[18px] font-light text-white/60 transition-all duration-300 group-hover:translate-x-1 group-hover:text-white">
+          ↗
+        </span>
+      </div>
 
-          <div
-            class="relative z-10 flex h-full min-h-[320px] flex-col p-6 sm:p-7">
+      <div class="mt-auto">
+        <h3 class="max-w-[240px] font-['Playfair_Display'] text-[29px] font-normal leading-[1.05] tracking-[-0.8px] text-[#f5f3ef]">
+          Social Media
+          <br />
+          Marketing
+        </h3>
 
-            <div class="flex items-center justify-between">
+        <p class="mt-5 max-w-[280px] font-['Montserrat'] text-[12px] leading-[1.65] text-white/55">
+          Strategic content, campaigns, and community-building that keep your brand relevant.
+        </p>
 
-              <span
-                class="font-['Playfair_Display'] text-[18px] text-[#ed963c]">
-                02
-              </span>
-
-              <span
-                class="font-['Montserrat'] text-[18px] font-light text-white/60 transition-all duration-300 group-hover:translate-x-1 group-hover:text-white">
-                ↗
-              </span>
-
-            </div>
-
-
-            <div class="mt-auto">
-
-              <h3
-                class="max-w-[240px] font-['Playfair_Display'] text-[29px] font-normal leading-[1.05] tracking-[-0.8px] text-[#f5f3ef]">
-                Social Media
-                <br />
-                Marketing
-              </h3>
-
-              <p
-                class="mt-5 max-w-[280px] font-['Montserrat'] text-[12px] leading-[1.65] text-white/55">
-                Strategic content, campaigns, and community-
-                building that keep your brand relevant.
-              </p>
-
-              <div
-                class="mt-5 font-['Montserrat'] text-[9px] font-semibold uppercase tracking-[2px] text-[#ed963c] opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Explore
-              </div>
-
-            </div>
-
-          </div>
-
+        <div class="mt-5 font-['Montserrat'] text-[9px] font-semibold uppercase tracking-[2px] text-[#ed963c] opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+          Explore
         </div>
+      </div>
+    </div>
+  </a>
 
 
-        <!-- =================================================
-           CARD 03
-      ================================================== -->
+  <!-- =================================================
+     CARD 03
+  ================================================== -->
 
-        <div
-          class="reveal reveal-delay-2 group relative min-h-[320px] overflow-hidden border-b border-r border-white/10">
+  <a
+    href="./seoservice.php"
+    class="group relative block min-h-[320px] overflow-hidden border-b border-r border-white/10 cursor-pointer">
 
-          <div
-            class="absolute inset-0 z-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+    <div class="absolute inset-0 z-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
 
-            <img
-              src="./assets/SEO.png"
-              alt=""
-              class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
+      <img
+        src="./assets/SEO.png"
+        alt="SEO"
+        class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
 
-            <div class="absolute inset-0 bg-black/50"></div>
+      <div class="absolute inset-0 bg-black/50"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-black/65 via-black/30 to-black/10"></div>
+    </div>
 
-            <div
-              class="absolute inset-0 bg-gradient-to-t from-black/65 via-black/30 to-black/10"></div>
+    <div class="relative z-10 flex h-full min-h-[320px] flex-col p-6 sm:p-7">
 
-          </div>
+      <div class="flex items-center justify-between">
+        <span class="font-['Playfair_Display'] text-[18px] text-[#ed963c]">03</span>
 
+        <span class="font-['Montserrat'] text-[18px] font-light text-white/60 transition-all duration-300 group-hover:translate-x-1 group-hover:text-white">
+          ↗
+        </span>
+      </div>
 
-          <div
-            class="relative z-10 flex h-full min-h-[320px] flex-col p-6 sm:p-7">
+      <div class="mt-auto">
+        <h3 class="font-['Playfair_Display'] text-[29px] font-normal leading-[1.05] tracking-[-0.8px] text-[#f5f3ef]">
+          SEO
+        </h3>
 
-            <div class="flex items-center justify-between">
+        <p class="mt-5 max-w-[280px] font-['Montserrat'] text-[12px] leading-[1.65] text-white/55">
+          Search strategies that improve visibility, organic traffic, and long-term discoverability.
+        </p>
 
-              <span
-                class="font-['Playfair_Display'] text-[18px] text-[#ed963c]">
-                03
-              </span>
-
-              <span
-                class="font-['Montserrat'] text-[18px] font-light text-white/60 transition-all duration-300 group-hover:translate-x-1 group-hover:text-white">
-                ↗
-              </span>
-
-            </div>
-
-
-            <div class="mt-auto">
-
-              <h3
-                class="font-['Playfair_Display'] text-[29px] font-normal leading-[1.05] tracking-[-0.8px] text-[#f5f3ef]">
-                SEO
-              </h3>
-
-              <p
-                class="mt-5 max-w-[280px] font-['Montserrat'] text-[12px] leading-[1.65] text-white/55">
-                Search strategies that improve visibility,
-                organic traffic, and long-term discoverability.
-              </p>
-
-              <div
-                class="mt-5 font-['Montserrat'] text-[9px] font-semibold uppercase tracking-[2px] text-[#ed963c] opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Explore
-              </div>
-
-            </div>
-
-          </div>
-
+        <div class="mt-5 font-['Montserrat'] text-[9px] font-semibold uppercase tracking-[2px] text-[#ed963c] opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+          Explore
         </div>
+      </div>
+    </div>
+  </a>
 
 
-        <!-- =================================================
-           CARD 04
-      ================================================== -->
+  <!-- =================================================
+     CARD 04
+  ================================================== -->
 
-        <div
-          class="reveal reveal-delay-3 group relative min-h-[320px] overflow-hidden border-b border-r border-white/10">
+  <a
+    href="./webdevelopmentService.php"
+    class="group relative block min-h-[320px] overflow-hidden border-b border-r border-white/10 cursor-pointer">
 
-          <div
-            class="absolute inset-0 z-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+    <div class="absolute inset-0 z-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
 
-            <img
-              src="./assets/website.webp"
-              alt=""
-              class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
+      <img
+        src="./assets/website.webp"
+        alt="Website Development"
+        class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
 
-            <div class="absolute inset-0 bg-black/50"></div>
+      <div class="absolute inset-0 bg-black/50"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-black/65 via-black/30 to-black/10"></div>
+    </div>
 
-            <div
-              class="absolute inset-0 bg-gradient-to-t from-black/65 via-black/30 to-black/10"></div>
+    <div class="relative z-10 flex h-full min-h-[320px] flex-col p-6 sm:p-7">
 
-          </div>
+      <div class="flex items-center justify-between">
+        <span class="font-['Playfair_Display'] text-[18px] text-[#ed963c]">04</span>
 
+        <span class="font-['Montserrat'] text-[18px] font-light text-white/60 transition-all duration-300 group-hover:translate-x-1 group-hover:text-white">
+          ↗
+        </span>
+      </div>
 
-          <div
-            class="relative z-10 flex h-full min-h-[320px] flex-col p-6 sm:p-7">
+      <div class="mt-auto">
+        <h3 class="font-['Playfair_Display'] text-[29px] font-normal leading-[1.05] tracking-[-0.8px] text-[#f5f3ef]">
+          Website Development
+        </h3>
 
-            <div class="flex items-center justify-between">
+        <p class="mt-5 max-w-[290px] font-['Montserrat'] text-[12px] leading-[1.65] text-white/55">
+          Modern, responsive websites designed around your brand, audience, and business goals.
+        </p>
 
-              <span
-                class="font-['Playfair_Display'] text-[18px] text-[#ed963c]">
-                04
-              </span>
-
-              <span
-                class="font-['Montserrat'] text-[18px] font-light text-white/60 transition-all duration-300 group-hover:translate-x-1 group-hover:text-white">
-                ↗
-              </span>
-
-            </div>
-
-
-            <div class="mt-auto">
-
-              <h3
-                class="font-['Playfair_Display'] text-[29px] font-normal leading-[1.05] tracking-[-0.8px] text-[#f5f3ef]">
-                Website Development
-              </h3>
-
-              <p
-                class="mt-5 max-w-[290px] font-['Montserrat'] text-[12px] leading-[1.65] text-white/55">
-                Modern, responsive websites designed around
-                your brand, audience, and business goals.
-              </p>
-
-              <div
-                class="mt-5 font-['Montserrat'] text-[9px] font-semibold uppercase tracking-[2px] text-[#ed963c] opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Explore
-              </div>
-
-            </div>
-
-          </div>
-
+        <div class="mt-5 font-['Montserrat'] text-[9px] font-semibold uppercase tracking-[2px] text-[#ed963c] opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+          Explore
         </div>
+      </div>
+    </div>
+  </a>
 
 
-        <!-- =================================================
-           CARD 05
-      ================================================== -->
+  <!-- =================================================
+     CARD 05
+  ================================================== -->
 
-        <div
-          class="reveal group relative min-h-[320px] overflow-hidden border-b border-r border-white/10">
+  <a
+    href="./video&mediaservice.php"
+    class="group relative block min-h-[320px] overflow-hidden border-b border-r border-white/10 cursor-pointer">
 
-          <div
-            class="absolute inset-0 z-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+    <div class="absolute inset-0 z-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
 
-            <img
-              src="./assets/video&marketing.webp"
-              alt=""
-              class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
+      <img
+        src="./assets/video&marketing.webp"
+        alt="Video and Media Production"
+        class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
 
-            <div class="absolute inset-0 bg-black/50"></div>
+      <div class="absolute inset-0 bg-black/50"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-black/65 via-black/30 to-black/10"></div>
+    </div>
 
-            <div
-              class="absolute inset-0 bg-gradient-to-t from-black/65 via-black/30 to-black/10"></div>
+    <div class="relative z-10 flex h-full min-h-[320px] flex-col p-6 sm:p-7">
 
-          </div>
+      <div class="flex items-center justify-between">
+        <span class="font-['Playfair_Display'] text-[18px] text-[#ed963c]">05</span>
 
+        <span class="font-['Montserrat'] text-[18px] font-light text-white/60 transition-all duration-300 group-hover:translate-x-1 group-hover:text-white">
+          ↗
+        </span>
+      </div>
 
-          <div
-            class="relative z-10 flex h-full min-h-[320px] flex-col p-6 sm:p-7">
+      <div class="mt-auto">
+        <h3 class="max-w-[260px] font-['Playfair_Display'] text-[29px] font-normal leading-[1.05] tracking-[-0.8px] text-[#f5f3ef]">
+          Video &amp; Media
+          <br />
+          Production
+        </h3>
 
-            <div class="flex items-center justify-between">
+        <p class="mt-5 max-w-[280px] font-['Montserrat'] text-[12px] leading-[1.65] text-white/55">
+          Professional video production, editing, storytelling, and visual content.
+        </p>
 
-              <span
-                class="font-['Playfair_Display'] text-[18px] text-[#ed963c]">
-                05
-              </span>
-
-              <span
-                class="font-['Montserrat'] text-[18px] font-light text-white/60 transition-all duration-300 group-hover:translate-x-1 group-hover:text-white">
-                ↗
-              </span>
-
-            </div>
-
-
-            <div class="mt-auto">
-
-              <h3
-                class="max-w-[260px] font-['Playfair_Display'] text-[29px] font-normal leading-[1.05] tracking-[-0.8px] text-[#f5f3ef]">
-                Video &amp; Media
-                <br />
-                Production
-              </h3>
-
-              <p
-                class="mt-5 max-w-[280px] font-['Montserrat'] text-[12px] leading-[1.65] text-white/55">
-                Professional video production, editing,
-                storytelling, and visual content.
-              </p>
-
-              <div
-                class="mt-5 font-['Montserrat'] text-[9px] font-semibold uppercase tracking-[2px] text-[#ed963c] opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Explore
-              </div>
-
-            </div>
-
-          </div>
-
+        <div class="mt-5 font-['Montserrat'] text-[9px] font-semibold uppercase tracking-[2px] text-[#ed963c] opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+          Explore
         </div>
+      </div>
+    </div>
+  </a>
 
 
-        <!-- =================================================
-           CARD 06
-      ================================================== -->
+  <!-- =================================================
+     CARD 06
+  ================================================== -->
 
-        <div
-          class="reveal reveal-delay-1 group relative min-h-[320px] overflow-hidden border-b border-r border-white/10">
+  <a
+    href="./performancemarketing.php"
+    class="group relative block min-h-[320px] overflow-hidden border-b border-r border-white/10 cursor-pointer">
 
-          <div
-            class="absolute inset-0 z-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+    <div class="absolute inset-0 z-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
 
-            <img
-              src="./assets/performance&marketing.jpg"
-              alt=""
-              class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
+      <img
+        src="./assets/performance&marketing.jpg"
+        alt="Performance Marketing"
+        class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
 
-            <div class="absolute inset-0 bg-black/50"></div>
+      <div class="absolute inset-0 bg-black/50"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-black/65 via-black/30 to-black/10"></div>
+    </div>
 
-            <div
-              class="absolute inset-0 bg-gradient-to-t from-black/65 via-black/30 to-black/10"></div>
+    <div class="relative z-10 flex h-full min-h-[320px] flex-col p-6 sm:p-7">
 
-          </div>
+      <div class="flex items-center justify-between">
+        <span class="font-['Playfair_Display'] text-[18px] text-[#ed963c]">06</span>
 
+        <span class="font-['Montserrat'] text-[18px] font-light text-white/60 transition-all duration-300 group-hover:translate-x-1 group-hover:text-white">
+          ↗
+        </span>
+      </div>
 
-          <div
-            class="relative z-10 flex h-full min-h-[320px] flex-col p-6 sm:p-7">
+      <div class="mt-auto">
+        <h3 class="max-w-[250px] font-['Playfair_Display'] text-[29px] font-normal leading-[1.05] tracking-[-0.8px] text-[#f5f3ef]">
+          Performance
+          <br />
+          Marketing
+        </h3>
 
-            <div class="flex items-center justify-between">
+        <p class="mt-5 max-w-[280px] font-['Montserrat'] text-[12px] leading-[1.65] text-white/55">
+          Data-driven advertising campaigns focused on measurable growth and conversions.
+        </p>
 
-              <span
-                class="font-['Playfair_Display'] text-[18px] text-[#ed963c]">
-                06
-              </span>
-
-              <span
-                class="font-['Montserrat'] text-[18px] font-light text-white/60 transition-all duration-300 group-hover:translate-x-1 group-hover:text-white">
-                ↗
-              </span>
-
-            </div>
-
-
-            <div class="mt-auto">
-
-              <h3
-                class="max-w-[250px] font-['Playfair_Display'] text-[29px] font-normal leading-[1.05] tracking-[-0.8px] text-[#f5f3ef]">
-                Performance
-                <br />
-                Marketing
-              </h3>
-
-              <p
-                class="mt-5 max-w-[280px] font-['Montserrat'] text-[12px] leading-[1.65] text-white/55">
-                Data-driven advertising campaigns focused on
-                measurable growth and conversions.
-              </p>
-
-              <div
-                class="mt-5 font-['Montserrat'] text-[9px] font-semibold uppercase tracking-[2px] text-[#ed963c] opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Explore
-              </div>
-
-            </div>
-
-          </div>
-
+        <div class="mt-5 font-['Montserrat'] text-[9px] font-semibold uppercase tracking-[2px] text-[#ed963c] opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+          Explore
         </div>
+      </div>
+    </div>
+  </a>
 
 
-        <!-- =================================================
-           CARD 07
-      ================================================== -->
+  <!-- =================================================
+     CARD 07
+  ================================================== -->
 
-        <div
-          class="reveal reveal-delay-2 group relative min-h-[320px] overflow-hidden border-b border-r border-white/10">
+  <a
+    href="./animationvideo.php"
+    class="group relative block min-h-[320px] overflow-hidden border-b border-r border-white/10 cursor-pointer">
 
-          <div
-            class="absolute inset-0 z-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+    <div class="absolute inset-0 z-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
 
-            <img
-              src="./assets/animation.avif"
-              alt=""
-              class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
+      <img
+        src="./assets/animation.avif"
+        alt="Animated Videos"
+        class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
 
-            <div class="absolute inset-0 bg-black/50"></div>
+      <div class="absolute inset-0 bg-black/50"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-black/65 via-black/30 to-black/10"></div>
+    </div>
 
-            <div
-              class="absolute inset-0 bg-gradient-to-t from-black/65 via-black/30 to-black/10"></div>
+    <div class="relative z-10 flex h-full min-h-[320px] flex-col p-6 sm:p-7">
 
-          </div>
+      <div class="flex items-center justify-between">
+        <span class="font-['Playfair_Display'] text-[18px] text-[#ed963c]">07</span>
 
+        <span class="font-['Montserrat'] text-[18px] font-light text-white/60 transition-all duration-300 group-hover:translate-x-1 group-hover:text-white">
+          ↗
+        </span>
+      </div>
 
-          <div
-            class="relative z-10 flex h-full min-h-[320px] flex-col p-6 sm:p-7">
+      <div class="mt-auto">
+        <h3 class="font-['Playfair_Display'] text-[29px] font-normal leading-[1.05] tracking-[-0.8px] text-[#f5f3ef]">
+          Animated Videos
+        </h3>
 
-            <div class="flex items-center justify-between">
+        <p class="mt-5 max-w-[280px] font-['Montserrat'] text-[12px] leading-[1.65] text-white/55">
+          Engaging animated content that simplifies ideas and makes brands memorable.
+        </p>
 
-              <span
-                class="font-['Playfair_Display'] text-[18px] text-[#ed963c]">
-                07
-              </span>
-
-              <span
-                class="font-['Montserrat'] text-[18px] font-light text-white/60 transition-all duration-300 group-hover:translate-x-1 group-hover:text-white">
-                ↗
-              </span>
-
-            </div>
-
-
-            <div class="mt-auto">
-
-              <h3
-                class="font-['Playfair_Display'] text-[29px] font-normal leading-[1.05] tracking-[-0.8px] text-[#f5f3ef]">
-                Animated Videos
-              </h3>
-
-              <p
-                class="mt-5 max-w-[280px] font-['Montserrat'] text-[12px] leading-[1.65] text-white/55">
-                Engaging animated content that simplifies ideas
-                and makes brands memorable.
-              </p>
-
-              <div
-                class="mt-5 font-['Montserrat'] text-[9px] font-semibold uppercase tracking-[2px] text-[#ed963c] opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Explore
-              </div>
-
-            </div>
-
-          </div>
-
+        <div class="mt-5 font-['Montserrat'] text-[9px] font-semibold uppercase tracking-[2px] text-[#ed963c] opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+          Explore
         </div>
+      </div>
+    </div>
+  </a>
 
 
-        <!-- =================================================
-           CARD 08
-      ================================================== -->
+  <!-- =================================================
+     CARD 08
+  ================================================== -->
 
-        <div
-          class="reveal reveal-delay-3 group relative min-h-[380px] overflow-hidden border-b border-r border-white/10">
+  <a
+    href="./creative&branding.php"
+    class="group relative block min-h-[380px] overflow-hidden border-b border-r border-white/10 cursor-pointer">
 
-          <div
-            class="absolute inset-0 z-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+    <div class="absolute inset-0 z-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
 
-            <img
-              src="./assets/graphicdesign.webp"
-              alt=""
-              class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
+      <img
+        src="./assets/graphicdesign.webp"
+        alt="Creative and Branding"
+        class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
 
-            <div class="absolute inset-0 bg-black/50"></div>
+      <div class="absolute inset-0 bg-black/50"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-black/65 via-black/30 to-black/10"></div>
+    </div>
 
-            <div
-              class="absolute inset-0 bg-gradient-to-t from-black/65 via-black/30 to-black/10"></div>
+    <div class="relative z-10 flex h-full min-h-[320px] flex-col p-6 sm:p-7">
 
-          </div>
+      <div class="flex items-center justify-between">
+        <span class="font-['Playfair_Display'] text-[18px] text-[#ed963c]">08</span>
 
+        <span class="font-['Montserrat'] text-[18px] font-light text-white/60 transition-all duration-300 group-hover:translate-x-1 group-hover:text-white">
+          ↗
+        </span>
+      </div>
 
-          <div
-            class="relative z-10 flex h-full min-h-[320px] flex-col p-6 sm:p-7">
+      <div class="mt-auto">
+        <h3 class="font-['Playfair_Display'] text-[29px] font-normal leading-[1.05] tracking-[-0.8px] text-[#f5f3ef]">
+          Creative &amp; Branding
+        </h3>
 
-            <div class="flex items-center justify-between">
+        <p class="mt-5 max-w-[290px] font-['Montserrat'] text-[12px] leading-[1.65] text-white/55">
+          Visual identities, campaign concepts, content, and creative direction that make your brand stand out.
+        </p>
 
-              <span
-                class="font-['Playfair_Display'] text-[18px] text-[#ed963c]">
-                08
-              </span>
-
-              <span
-                class="font-['Montserrat'] text-[18px] font-light text-white/60 transition-all duration-300 group-hover:translate-x-1 group-hover:text-white">
-                ↗
-              </span>
-
-            </div>
-
-
-            <div class="mt-auto">
-
-              <h3
-                class="font-['Playfair_Display'] text-[29px] font-normal leading-[1.05] tracking-[-0.8px] text-[#f5f3ef]">
-                Creative &amp; Branding
-              </h3>
-
-              <p
-                class="mt-5 max-w-[290px] font-['Montserrat'] text-[12px] leading-[1.65] text-white/55">
-                Visual identities, campaign concepts, content,
-                and creative direction that make your brand stand out.
-              </p>
-
-              <div
-                class="mt-5 font-['Montserrat'] text-[9px] font-semibold uppercase tracking-[2px] text-[#ed963c] opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Explore
-              </div>
-
-            </div>
-
-          </div>
-
+        <div class="mt-5 font-['Montserrat'] text-[9px] font-semibold uppercase tracking-[2px] text-[#ed963c] opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+          Explore
         </div>
+      </div>
+    </div>
+  </a>
+
+</div>
 
       </div>
 
     </div>
 
   </section>
+
 
 
   <!-- 360 Marketing Section -->
