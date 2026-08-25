@@ -414,7 +414,7 @@
 
 
             <span class="break-all text-[13px] text-[#92989d] transition-colors duration-300 group-hover:text-[#f5f1eb]">
-              hello@twinklemediahub.com
+             info@twinklemediahub.com
             </span>
 
           </a>
@@ -446,7 +446,8 @@
 
 
             <span class="text-[13px] leading-[1.6] text-[#92989d]">
-              Navi Mumbai, Maharashtra, India
+              Office No. 24, Plot 19, Gauri Complex, Sector 11, CBD Belapur, Navi Mumbai, Maharashtra 400614
+i
             </span>
 
           </div>

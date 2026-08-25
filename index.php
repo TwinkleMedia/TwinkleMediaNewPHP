@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home page </title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+
+  
 </head>
 
 <body>
@@ -32,7 +35,7 @@
 
         <!-- Heading -->
 
-        <h2 class="font-serif text-[36px] leading-[1.05] tracking-[-0.035em] text-[#f5f1eb] sm:text-[44px] lg:text-[48px]">
+        <h2 class="reveal font-serif text-[36px] leading-[1.05] tracking-[-0.035em] text-[#f5f1eb] sm:text-[44px] lg:text-[48px]">
           Trusted By Brands
         </h2>
 
@@ -192,7 +195,7 @@
     ================================================== -->
 
       <div
-        class="font-['Montserrat'] text-[10px] font-semibold uppercase tracking-[2px] text-[#ed963c] sm:text-[11px]">
+        class="reveal font-['Montserrat'] text-[10px] font-semibold uppercase tracking-[2px] text-[#ed963c] sm:text-[11px]">
         About the Studio
       </div>
 
@@ -202,7 +205,7 @@
     ================================================== -->
 
       <h2
-        class="mt-8 max-w-[1000px] font-['Playfair_Display'] text-[42px] font-normal leading-[1.05] tracking-[-1.5px] text-[#f5f3ef] sm:text-[52px] md:text-[62px] lg:text-[70px] xl:text-[76px]">
+        class="reveal reveal-delay-1 mt-8 max-w-[1000px] font-['Playfair_Display'] text-[42px] font-normal leading-[1.05] tracking-[-1.5px] text-[#f5f3ef] sm:text-[52px] md:text-[62px] lg:text-[70px] xl:text-[76px]">
 
         We Don't Just Market Brands.
 
@@ -227,7 +230,7 @@
         <div>
 
           <div
-            class="font-['Montserrat'] text-[10px] font-medium uppercase tracking-[2px] leading-[1.8] text-[#4563B5] sm:text-[11px]">
+            class="reveal font-['Montserrat'] text-[10px] font-medium uppercase tracking-[2px] leading-[1.8] text-[#4563B5] sm:text-[11px]">
             Creativity · Strategy · Technology · Results
           </div>
 
@@ -242,7 +245,7 @@
           class="max-w-[720px]">
 
           <p
-            class="font-['Montserrat'] text-[16px] font-normal leading-[1.65] text-white/75 sm:text-[17px] md:text-[18px] lg:text-[19px]">
+            class="reveal font-['Montserrat'] text-[16px] font-normal leading-[1.65] text-white/75 sm:text-[17px] md:text-[18px] lg:text-[19px]">
             We help brands create a clear, consistent, and
             professional presence across all digital platforms.
             By understanding your business, audience, and goals,
@@ -252,7 +255,7 @@
 
 
           <p
-            class="mt-8 font-['Montserrat'] text-[16px] font-normal leading-[1.65] text-white/90 sm:text-[17px] md:text-[18px] lg:text-[19px]">
+            class="reveal reveal-delay-1 mt-8 font-['Montserrat'] text-[16px] font-normal leading-[1.65] text-white/90 sm:text-[17px] md:text-[18px] lg:text-[19px]">
             Our focus is on clarity, consistency, and long-term
             brand value.
           </p>
@@ -290,7 +293,7 @@
         <div>
 
           <h2
-            class="font-['Playfair_Display'] text-[48px] font-normal leading-none tracking-[-2px] text-[#f5f3ef] sm:text-[58px] md:text-[64px] lg:text-[68px]">
+            class="reveal font-['Playfair_Display'] text-[48px] font-normal leading-none tracking-[-2px] text-[#f5f3ef] sm:text-[58px] md:text-[64px] lg:text-[68px]">
             What We Do
           </h2>
 
@@ -303,7 +306,7 @@
           class="max-w-[420px] md:ml-auto">
 
           <p
-            class="font-['Montserrat'] text-[13px] font-normal leading-[1.65] text-[#4563B5] sm:text-[14px] md:text-[15px]">
+            class="reveal reveal-delay-1 font-['Montserrat'] text-[13px] font-normal leading-[1.65] text-[#4563B5] sm:text-[14px] md:text-[15px]">
             Eight disciplines, one team. Every engagement is
             assembled from the services your brand actually
             needs — nothing padded, nothing generic.
@@ -327,7 +330,7 @@
       ================================================== -->
 
         <div
-          class="group relative min-h-[320px] overflow-hidden border-b border-r border-white/10">
+          class="reveal group relative min-h-[320px] overflow-hidden border-b border-r border-white/10">
 
           <!-- BACKGROUND IMAGE -->
 
@@ -405,7 +408,7 @@
       ================================================== -->
 
         <div
-          class="group relative min-h-[320px] overflow-hidden border-b border-r border-white/10">
+          class="reveal reveal-delay-1 group relative min-h-[320px] overflow-hidden border-b border-r border-white/10">
 
           <div
             class="absolute inset-0 z-0 opacity-0 transition-opacity duration-500 ease-out group-hover:opacity-100">
@@ -473,7 +476,7 @@
       ================================================== -->
 
         <div
-          class="group relative min-h-[320px] overflow-hidden border-b border-r border-white/10">
+          class="reveal reveal-delay-2 group relative min-h-[320px] overflow-hidden border-b border-r border-white/10">
 
           <div
             class="absolute inset-0 z-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
@@ -539,7 +542,7 @@
       ================================================== -->
 
         <div
-          class="group relative min-h-[320px] overflow-hidden border-b border-r border-white/10">
+          class="reveal reveal-delay-3 group relative min-h-[320px] overflow-hidden border-b border-r border-white/10">
 
           <div
             class="absolute inset-0 z-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
@@ -605,7 +608,7 @@
       ================================================== -->
 
         <div
-          class="group relative min-h-[320px] overflow-hidden border-b border-r border-white/10">
+          class="reveal group relative min-h-[320px] overflow-hidden border-b border-r border-white/10">
 
           <div
             class="absolute inset-0 z-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
@@ -673,7 +676,7 @@
       ================================================== -->
 
         <div
-          class="group relative min-h-[320px] overflow-hidden border-b border-r border-white/10">
+          class="reveal reveal-delay-1 group relative min-h-[320px] overflow-hidden border-b border-r border-white/10">
 
           <div
             class="absolute inset-0 z-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
@@ -741,7 +744,7 @@
       ================================================== -->
 
         <div
-          class="group relative min-h-[320px] overflow-hidden border-b border-r border-white/10">
+          class="reveal reveal-delay-2 group relative min-h-[320px] overflow-hidden border-b border-r border-white/10">
 
           <div
             class="absolute inset-0 z-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
@@ -807,7 +810,7 @@
       ================================================== -->
 
         <div
-          class="group relative min-h-[380px] overflow-hidden border-b border-r border-white/10">
+          class="reveal reveal-delay-3 group relative min-h-[380px] overflow-hidden border-b border-r border-white/10">
 
           <div
             class="absolute inset-0 z-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
@@ -931,7 +934,7 @@
           <!-- LABEL -->
 
           <div
-            class="font-['Montserrat'] text-[10px] font-semibold uppercase tracking-[2px] text-[#ed963c] sm:text-[10px]">
+            class="reveal font-['Montserrat'] text-[10px] font-semibold uppercase tracking-[2px] text-[#ed963c] sm:text-[10px]">
             Full-Funnel Marketing
           </div>
 
@@ -939,7 +942,7 @@
           <!-- HEADING -->
 
           <h2
-            class="mt-4 max-w-[850px] font-['Playfair_Display'] text-[28px] font-normal leading-[1.1] tracking-[-1px] text-[#f5f3ef] sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-[44px]">
+            class="reveal reveal-delay-1 mt-4 max-w-[850px] font-['Playfair_Display'] text-[28px] font-normal leading-[1.1] tracking-[-1px] text-[#f5f3ef] sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-[44px]">
             360° Marketing That
             Delivers Results
           </h2>
@@ -948,7 +951,7 @@
           <!-- DESCRIPTION -->
 
           <p
-            class="mt-5 max-w-[540px] font-['Montserrat'] text-[13px] font-normal leading-[1.6] text-[#b8c4d5] sm:text-[13px] md:text-[14px]">
+            class="reveal reveal-delay-2 mt-5 max-w-[540px] font-['Montserrat'] text-[13px] font-normal leading-[1.6] text-[#b8c4d5] sm:text-[13px] md:text-[14px]">
             From SEO and social media marketing to websites,
             ads, and video production, we offer complete 360°
             digital solutions under one roof. Every strategy is
@@ -960,7 +963,7 @@
           <!-- STATEMENT -->
 
           <p
-            class="mt-4 max-w-[560px] font-['Playfair_Display'] text-[17px] font-normal leading-[1.35] text-[#f5f3ef] sm:text-[17px] md:text-[19px]">
+            class="reveal reveal-delay-3 mt-4 max-w-[560px] font-['Playfair_Display'] text-[17px] font-normal leading-[1.35] text-[#f5f3ef] sm:text-[17px] md:text-[19px]">
             Our goal is simple: help your brand grow consistently
             across all digital channels.
           </p>
@@ -984,7 +987,7 @@
           ================================================== -->
 
             <div
-              class="border-t border-white/15 pt-3">
+              class="reveal border-t border-white/15 pt-3">
 
               <div
                 class="font-['Playfair_Display'] text-[30px] font-normal leading-none text-[#f5f3ef] sm:text-[28px] md:text-[30px]">
@@ -1004,7 +1007,7 @@
           ================================================== -->
 
             <div
-              class="border-t border-white/15 pt-3">
+              class="reveal reveal-delay-1 border-t border-white/15 pt-3">
 
               <div
                 class="font-['Playfair_Display'] text-[30px] font-normal leading-none text-[#f5f3ef] sm:text-[28px] md:text-[30px]">
@@ -1024,7 +1027,7 @@
           ================================================== -->
 
             <div
-              class="border-t border-white/15 pt-3">
+              class="reveal reveal-delay-2 border-t border-white/15 pt-3">
 
               <div
                 class="font-['Playfair_Display'] text-[30px] font-normal leading-none text-[#f5f3ef] sm:text-[28px] md:text-[30px]">
@@ -1123,7 +1126,7 @@
         <!-- HEADING -->
 
         <h2
-          class="max-w-[700px] font-['Playfair_Display'] text-[40px] font-normal leading-[1.05] tracking-[-1.5px] text-[#f5f3ef] sm:text-[46px] md:text-[52px] lg:text-[58px]">
+          class="reveal max-w-[700px] font-['Playfair_Display'] text-[40px] font-normal leading-[1.05] tracking-[-1.5px] text-[#f5f3ef] sm:text-[46px] md:text-[52px] lg:text-[58px]">
           Why Choose Twinkle Media
           <br />
           Hub?
@@ -1133,7 +1136,7 @@
         <!-- SMALL LABEL -->
 
         <div
-          class="pb-2 font-['Montserrat'] text-[9px] font-medium uppercase tracking-[1.8px] text-[#8ea5c4]">
+          class="reveal reveal-delay-1 pb-2 font-['Montserrat'] text-[9px] font-medium uppercase tracking-[1.8px] text-[#8ea5c4]">
           Six Reasons — Hover To Expand
         </div>
 
@@ -1155,7 +1158,7 @@
       ================================================== -->
 
         <div
-          class="group/item relative grid cursor-pointer grid-cols-[55px_1fr] gap-5 py-8 sm:grid-cols-[75px_1fr] sm:gap-5 md:grid-cols-[95px_1fr_auto] md:items-center md:gap-5 md:py-9">
+          class="reveal group/item relative grid cursor-pointer grid-cols-[55px_1fr] gap-5 py-8 sm:grid-cols-[75px_1fr] sm:gap-5 md:grid-cols-[95px_1fr_auto] md:items-center md:gap-5 md:py-9">
 
           <!-- DEFAULT BORDER -->
 
@@ -1200,7 +1203,7 @@
       ================================================== -->
 
         <div
-          class="group/item relative grid cursor-pointer grid-cols-[55px_1fr] gap-5 py-8 sm:grid-cols-[75px_1fr] sm:gap-5 md:grid-cols-[95px_1fr_auto] md:items-center md:gap-5 md:py-9">
+          class="reveal group/item relative grid cursor-pointer grid-cols-[55px_1fr] gap-5 py-8 sm:grid-cols-[75px_1fr] sm:gap-5 md:grid-cols-[95px_1fr_auto] md:items-center md:gap-5 md:py-9">
 
           <div
             class="absolute bottom-0 left-0 h-px w-full bg-white/15"></div>
@@ -1235,7 +1238,7 @@
       ================================================== -->
 
         <div
-          class="group/item relative grid cursor-pointer grid-cols-[55px_1fr] gap-5 py-8 sm:grid-cols-[75px_1fr] sm:gap-5 md:grid-cols-[95px_1fr_auto] md:items-center md:gap-5 md:py-9">
+          class="reveal group/item relative grid cursor-pointer grid-cols-[55px_1fr] gap-5 py-8 sm:grid-cols-[75px_1fr] sm:gap-5 md:grid-cols-[95px_1fr_auto] md:items-center md:gap-5 md:py-9">
 
           <div
             class="absolute bottom-0 left-0 h-px w-full bg-white/15"></div>
@@ -1269,7 +1272,7 @@
       ================================================== -->
 
         <div
-          class="group/item relative grid cursor-pointer grid-cols-[55px_1fr] gap-5 py-8 sm:grid-cols-[75px_1fr] sm:gap-5 md:grid-cols-[95px_1fr_auto] md:items-center md:gap-5 md:py-9">
+          class="reveal group/item relative grid cursor-pointer grid-cols-[55px_1fr] gap-5 py-8 sm:grid-cols-[75px_1fr] sm:gap-5 md:grid-cols-[95px_1fr_auto] md:items-center md:gap-5 md:py-9">
 
           <div
             class="absolute bottom-0 left-0 h-px w-full bg-white/15"></div>
@@ -1304,7 +1307,7 @@
       ================================================== -->
 
         <div
-          class="group/item relative grid cursor-pointer grid-cols-[55px_1fr] gap-5 py-8 sm:grid-cols-[75px_1fr] sm:gap-5 md:grid-cols-[95px_1fr_auto] md:items-center md:gap-5 md:py-9">
+          class="reveal group/item relative grid cursor-pointer grid-cols-[55px_1fr] gap-5 py-8 sm:grid-cols-[75px_1fr] sm:gap-5 md:grid-cols-[95px_1fr_auto] md:items-center md:gap-5 md:py-9">
 
           <div
             class="absolute bottom-0 left-0 h-px w-full bg-white/15"></div>
@@ -1339,7 +1342,7 @@
       ================================================== -->
 
         <div
-          class="group/item relative grid cursor-pointer grid-cols-[55px_1fr] gap-5 py-8 sm:grid-cols-[75px_1fr] sm:gap-5 md:grid-cols-[95px_1fr_auto] md:items-center md:gap-5 md:py-9">
+          class="reveal group/item relative grid cursor-pointer grid-cols-[55px_1fr] gap-5 py-8 sm:grid-cols-[75px_1fr] sm:gap-5 md:grid-cols-[95px_1fr_auto] md:items-center md:gap-5 md:py-9">
 
           <div
             class="absolute bottom-0 left-0 h-px w-full bg-white/15"></div>
@@ -1399,11 +1402,11 @@
 
         <div>
 
-          <p class="mb-6 text-[10px] font-medium uppercase tracking-[0.22em] text-[#f28a24]">
+          <p class="reveal mb-6 text-[10px] font-medium uppercase tracking-[0.22em] text-[#f28a24]">
             Client Trust
           </p>
 
-          <h2 class="font-serif text-[38px] leading-[1.05] tracking-[-0.035em] text-[#f5f1eb] sm:text-[48px] lg:text-[58px]">
+          <h2 class="reveal reveal-delay-1 font-serif text-[38px] leading-[1.05] tracking-[-0.035em] text-[#f5f1eb] sm:text-[48px] lg:text-[58px]">
             What Our Clients Say
           </h2>
 
@@ -1412,7 +1415,7 @@
 
         <!-- Right -->
 
-        <p class="max-w-[350px] text-[12px] font-normal leading-[1.65] text-[#92989d] lg:mb-1">
+        <p class="reveal reveal-delay-2 max-w-[350px] text-[12px] font-normal leading-[1.65] text-[#92989d] lg:mb-1">
           Placeholder cards shown below. Once the Google Business profile is
           connected, real reviews replace this content directly.
         </p>
@@ -1434,7 +1437,7 @@
       ======================================== -->
 
         <article
-          class="review-card flex w-[calc(100vw-90px)] min-w-[calc(100vw-90px)] flex-none snap-start flex-col border border-[#292d30] bg-[#0b0d0f] p-5 sm:w-[360px] sm:min-w-[360px] sm:p-6 lg:w-auto lg:min-w-0">
+          class="reveal review-card flex w-[calc(100vw-90px)] min-w-[calc(100vw-90px)] flex-none snap-start flex-col border border-[#292d30] bg-[#0b0d0f] p-5 sm:w-[360px] sm:min-w-[360px] sm:p-6 lg:w-auto lg:min-w-0">
 
           <!-- Top -->
 
@@ -1498,7 +1501,7 @@
       ======================================== -->
 
         <article
-          class="review-card flex w-[calc(100vw-90px)] min-w-[calc(100vw-90px)] flex-none snap-start flex-col border border-[#292d30] bg-[#0b0d0f] p-5 sm:w-[360px] sm:min-w-[360px] sm:p-6 lg:w-auto lg:min-w-0">
+          class="reveal reveal-delay-1 review-card flex w-[calc(100vw-90px)] min-w-[calc(100vw-90px)] flex-none snap-start flex-col border border-[#292d30] bg-[#0b0d0f] p-5 sm:w-[360px] sm:min-w-[360px] sm:p-6 lg:w-auto lg:min-w-0">
 
           <div class="flex items-center justify-between">
 
@@ -1550,7 +1553,7 @@
       ======================================== -->
 
         <article
-          class="review-card flex w-[calc(100vw-90px)] min-w-[calc(100vw-90px)] flex-none snap-start flex-col border border-[#292d30] bg-[#0b0d0f] p-5 sm:w-[360px] sm:min-w-[360px] sm:p-6 lg:w-auto lg:min-w-0">
+          class="reveal reveal-delay-2 review-card flex w-[calc(100vw-90px)] min-w-[calc(100vw-90px)] flex-none snap-start flex-col border border-[#292d30] bg-[#0b0d0f] p-5 sm:w-[360px] sm:min-w-[360px] sm:p-6 lg:w-auto lg:min-w-0">
 
           <div class="flex items-center justify-between">
 
@@ -1602,7 +1605,7 @@
       ======================================== -->
 
         <article
-          class="review-card flex w-[calc(100vw-90px)] min-w-[calc(100vw-90px)] flex-none snap-start flex-col border border-[#292d30] bg-[#0b0d0f] p-5 sm:w-[360px] sm:min-w-[360px] sm:p-6 lg:w-auto lg:min-w-0">
+          class="reveal reveal-delay-3 review-card flex w-[calc(100vw-90px)] min-w-[calc(100vw-90px)] flex-none snap-start flex-col border border-[#292d30] bg-[#0b0d0f] p-5 sm:w-[360px] sm:min-w-[360px] sm:p-6 lg:w-auto lg:min-w-0">
 
           <div class="flex items-center justify-between">
 
@@ -1695,13 +1698,13 @@
 
     <!-- Header -->
     <div class="max-w-2xl mb-10 sm:mb-12 md:mb-16">
-      <p class="mb-3 text-[9px] font-medium uppercase tracking-[0.22em] text-[#f28a24] sm:mb-4 sm:text-[10px]">
+      <p class="reveal mb-3 text-[9px] font-medium uppercase tracking-[0.22em] text-[#f28a24] sm:mb-4 sm:text-[10px]">
         Behind The Scenes
       </p>
-      <h2 class="font-['Playfair_Display',serif] text-[clamp(28px,6vw,56px)] leading-[1.08] tracking-[-0.02em] text-[#f5f1eb]">
+      <h2 class="reveal reveal-delay-1 font-['Playfair_Display',serif] text-[clamp(28px,6vw,56px)] leading-[1.08] tracking-[-0.02em] text-[#f5f1eb]">
         Where the real work happens
       </h2>
-      <p class="mt-4 max-w-lg text-[12px] sm:text-[13px] md:text-[14px] leading-relaxed text-[#aeb3b7]">
+      <p class="reveal reveal-delay-2 mt-4 max-w-lg text-[12px] sm:text-[13px] md:text-[14px] leading-relaxed text-[#aeb3b7]">
         Shoots, edits, brainstorms, and the moments that never make the final cut.
         Hover to preview, tap to watch in full.
       </p>
@@ -1714,7 +1717,7 @@
       <div
         data-bts-video
         data-src="https://www.w3schools.com/html/mov_bbb.mp4"
-        class="group relative col-span-1 row-span-1 md:col-span-2 md:row-span-2 aspect-video md:aspect-auto h-full w-full overflow-hidden rounded-2xl border border-[#2a2d30] cursor-pointer bg-[#141518]"
+        class="reveal group relative col-span-1 row-span-1 md:col-span-2 md:row-span-2 aspect-video md:aspect-auto h-full w-full overflow-hidden rounded-2xl border border-[#2a2d30] cursor-pointer bg-[#141518]"
       >
         <video
           data-preview
@@ -1740,7 +1743,7 @@
       <div
         data-bts-video
         data-src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
-        class="group relative col-span-1 row-span-1 aspect-video md:aspect-auto h-full w-full overflow-hidden rounded-2xl border border-[#2a2d30] cursor-pointer bg-[#141518]"
+        class="reveal reveal-delay-1 group relative col-span-1 row-span-1 aspect-video md:aspect-auto h-full w-full overflow-hidden rounded-2xl border border-[#2a2d30] cursor-pointer bg-[#141518]"
       >
         <video
           data-preview
@@ -1765,7 +1768,7 @@
       <div
         data-bts-video
         data-src="https://www.w3schools.com/html/mov_bbb.mp4"
-        class="group relative col-span-1 row-span-1 aspect-video md:aspect-auto h-full w-full overflow-hidden rounded-2xl border border-[#2a2d30] cursor-pointer bg-[#141518]"
+        class="reveal reveal-delay-2 group relative col-span-1 row-span-1 aspect-video md:aspect-auto h-full w-full overflow-hidden rounded-2xl border border-[#2a2d30] cursor-pointer bg-[#141518]"
       >
         <video
           data-preview
@@ -1790,7 +1793,7 @@
       <div
         data-bts-video
         data-src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
-        class="group relative col-span-1 row-span-1 md:row-span-2 aspect-video md:aspect-auto h-full w-full overflow-hidden rounded-2xl border border-[#2a2d30] cursor-pointer bg-[#141518]"
+        class="reveal reveal-delay-3 group relative col-span-1 row-span-1 md:row-span-2 aspect-video md:aspect-auto h-full w-full overflow-hidden rounded-2xl border border-[#2a2d30] cursor-pointer bg-[#141518]"
       >
         <video
           data-preview
@@ -1816,7 +1819,7 @@
       <div
         data-bts-video
         data-src="https://www.w3schools.com/html/mov_bbb.mp4"
-        class="group relative col-span-1 row-span-1 md:col-span-2 aspect-video md:aspect-auto h-full w-full overflow-hidden rounded-2xl border border-[#2a2d30] cursor-pointer bg-[#141518]"
+        class="reveal group relative col-span-1 row-span-1 md:col-span-2 aspect-video md:aspect-auto h-full w-full overflow-hidden rounded-2xl border border-[#2a2d30] cursor-pointer bg-[#141518]"
       >
         <video
           data-preview
@@ -1842,7 +1845,7 @@
       <div
         data-bts-video
         data-src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
-        class="group relative col-span-1 row-span-1 aspect-video md:aspect-auto h-full w-full overflow-hidden rounded-2xl border border-[#2a2d30] cursor-pointer bg-[#141518]"
+        class="reveal reveal-delay-1 group relative col-span-1 row-span-1 aspect-video md:aspect-auto h-full w-full overflow-hidden rounded-2xl border border-[#2a2d30] cursor-pointer bg-[#141518]"
       >
         <video
           data-preview
@@ -1866,7 +1869,7 @@
       <div
         data-bts-video
         data-src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
-        class="group relative col-span-1 row-span-1 aspect-video md:aspect-auto h-full w-full overflow-hidden rounded-2xl border border-[#2a2d30] cursor-pointer bg-[#141518]"
+        class="reveal reveal-delay-2 group relative col-span-1 row-span-1 aspect-video md:aspect-auto h-full w-full overflow-hidden rounded-2xl border border-[#2a2d30] cursor-pointer bg-[#141518]"
       >
         <video
           data-preview
@@ -1903,168 +1906,7 @@
   <video id="btsVideo" class="w-full max-w-4xl max-h-[80vh] rounded-xl bg-black" controls playsinline autoplay></video>
 </div>
 
-  
-
-  <!-- =========================================
-     TRUSTED BY BRANDS
-========================================== -->
-
-  <section class="w-full overflow-hidden bg-[#171a1c]">
-
-    <!-- =========================================
-       HEADER
-  ========================================== -->
-
-    <div class="mx-auto w-full max-w-[1320px] px-5 py-14 sm:px-8 sm:py-16 lg:px-10 lg:py-20">
-
-      <div class="flex flex-col gap-6 sm:gap-7 lg:flex-row lg:items-center lg:justify-between">
-
-        <!-- Heading -->
-
-        <h2 class="font-serif text-[36px] leading-[1.05] tracking-[-0.035em] text-[#f5f1eb] sm:text-[44px] lg:text-[48px]">
-          Trusted By Brands
-        </h2>
-
-
-
-
-      </div>
-
-    </div>
-
-
-
-    
-
-
-    <!-- =========================================
-       LOGO MARQUEE
-  ========================================== -->
-
-    <div class="border-y border-[#2b2f32]">
-
-      <div
-        id="brandLogoViewport"
-        class="relative w-full overflow-hidden">
-
-        <div
-          id="brandLogoTrack"
-          class="flex w-max">
-
-
-          <!-- =====================================
-             LOGO 01
-        ====================================== -->
-
-          <div
-            class="brand-logo flex h-[125px] w-[285px] flex-none items-center justify-center border-r border-[#25292c] px-12 sm:h-[135px] sm:w-[310px] sm:px-14 lg:h-[125px] lg:w-[285px] lg:px-12">
-
-            <img
-              src="./assets/meridianLogo.webp"
-              alt="Meridian Logo"
-              class="max-h-14 max-w-[180px] object-contain">
-
-          </div>
-
-
-          <!-- =====================================
-             LOGO 02
-        ====================================== -->
-
-          <div
-            class="brand-logo flex h-[125px] w-[285px] flex-none items-center justify-center border-r border-[#25292c] px-12 sm:h-[135px] sm:w-[310px] sm:px-14 lg:h-[125px] lg:w-[285px] lg:px-12">
-
-            <img
-              src="./assets/nandiInternationalLogo.webp"
-              alt="Nandi International Logo"
-              class="max-h-14 max-w-[180px] object-contain">
-
-          </div>
-
-
-          <!-- =====================================
-             LOGO 03
-        ====================================== -->
-
-          <div
-            class="brand-logo flex h-[125px] w-[285px] flex-none items-center justify-center border-r border-[#25292c] px-12 sm:h-[135px] sm:w-[310px] sm:px-14 lg:h-[125px] lg:w-[285px] lg:px-12">
-
-            <img
-              src="./assets/rapidiseLogo.webp"
-              alt="Rapidise Logo"
-              class="max-h-14 max-w-[180px] object-contain">
-
-          </div>
-
-
-          <!-- =====================================
-             LOGO 04
-        ====================================== -->
-
-          <div
-            class="brand-logo flex h-[125px] w-[285px] flex-none items-center justify-center border-r border-[#25292c] px-12 sm:h-[135px] sm:w-[310px] sm:px-14 lg:h-[125px] lg:w-[285px] lg:px-12">
-
-            <img
-              src="./assets/ecdipluslogo.webp"
-              alt="ECDIS Plus Logo"
-              class="max-h-14 max-w-[180px] object-contain">
-
-          </div>
-
-
-          <!-- =====================================
-             LOGO 05
-        ====================================== -->
-
-          <div
-            class="brand-logo flex h-[125px] w-[285px] flex-none items-center justify-center border-r border-[#25292c] px-12 sm:h-[135px] sm:w-[310px] sm:px-14 lg:h-[125px] lg:w-[285px] lg:px-12">
-
-            <img
-              src="./assets/aryanclient1.webp"
-              alt="Aryan Devcon Logo"
-              class="max-h-14 max-w-[180px] object-contain">
-
-          </div>
-
-
-          <!-- =====================================
-             LOGO 06
-        ====================================== -->
-
-          <div
-            class="brand-logo flex h-[125px] w-[285px] flex-none items-center justify-center border-r border-[#25292c] px-12 sm:h-[135px] sm:w-[310px] sm:px-14 lg:h-[125px] lg:w-[285px] lg:px-12">
-
-            <img
-              src="./assets/finelogo.webp"
-              alt="Fine Logo"
-              class="max-h-14 max-w-[180px] object-contain">
-
-          </div>
-
-
-          <!-- =====================================
-             LOGO 07
-        ====================================== -->
-
-          <div
-            class="brand-logo flex h-[125px] w-[285px] flex-none items-center justify-center border-r border-[#25292c] px-12 sm:h-[135px] sm:w-[310px] sm:px-14 lg:h-[125px] lg:w-[285px] lg:px-12">
-
-            <img
-              src="./assets/samalaLogo.webp"
-              alt="Samala Logo"
-              class="max-h-14 max-w-[180px] object-contain">
-
-          </div>
-
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
-
+ 
 
   <!-- =========================================
      AUTO LOGO SCROLL
@@ -2073,158 +1915,72 @@
   <script>
     document.addEventListener("DOMContentLoaded", function() {
 
-      const track = document.getElementById("brandLogoTrack");
-      const viewport = document.getElementById("brandLogoViewport");
-
-      if (!track || !viewport) return;
-
-
       /* ==========================================
-         DUPLICATE LOGOS
+         REUSABLE MARQUEE SETUP
+         (kept exactly as-is, just wrapped so it can
+         safely run for both marquee instances)
       ========================================== */
 
-      const originalLogos = Array.from(
-        track.querySelectorAll(".brand-logo")
-      );
+      function setupMarquee(trackId, viewportId, itemSelector) {
 
+        const track = document.getElementById(trackId);
+        const viewport = document.getElementById(viewportId);
 
-      originalLogos.forEach(function(logo) {
+        if (!track || !viewport) return;
 
-        const clone = logo.cloneNode(true);
-
-        clone.setAttribute("aria-hidden", "true");
-
-        track.appendChild(clone);
-
-      });
-
-
-      /* ==========================================
-         AUTO SCROLL
-      ========================================== */
-
-      let position = 0;
-
-      const speed = 0.45;
-
-      let isPaused = false;
-
-
-      /* ==========================================
-         GET ORIGINAL LOGO WIDTH
-      ========================================== */
-
-      function getOriginalWidth() {
-
-        let width = 0;
+        const originalLogos = Array.from(
+          track.querySelectorAll(itemSelector)
+        );
 
         originalLogos.forEach(function(logo) {
-
-          width += logo.getBoundingClientRect().width;
-
+          const clone = logo.cloneNode(true);
+          clone.setAttribute("aria-hidden", "true");
+          track.appendChild(clone);
         });
 
-        return width;
+        let position = 0;
+        const speed = 0.45;
+        let isPaused = false;
 
-      }
+        function getOriginalWidth() {
+          let width = 0;
+          originalLogos.forEach(function(logo) {
+            width += logo.getBoundingClientRect().width;
+          });
+          return width;
+        }
 
+        let originalWidth = getOriginalWidth();
 
-      let originalWidth = getOriginalWidth();
-
-
-      /* ==========================================
-         ANIMATION
-      ========================================== */
-
-      function animate() {
-
-        if (!isPaused) {
-
-          position += speed;
-
-
-          if (position >= originalWidth) {
-
-            position = 0;
-
+        function animate() {
+          if (!isPaused) {
+            position += speed;
+            if (position >= originalWidth) {
+              position = 0;
+            }
+            track.style.transform = "translate3d(-" + position + "px, 0, 0)";
           }
-
-
-          track.style.transform =
-            "translate3d(-" + position + "px, 0, 0)";
-
+          requestAnimationFrame(animate);
         }
 
+        animate();
 
-        requestAnimationFrame(animate);
+        viewport.addEventListener("mouseenter", function() { isPaused = true; });
+        viewport.addEventListener("mouseleave", function() { isPaused = false; });
 
+        viewport.addEventListener("touchstart", function() { isPaused = true; }, { passive: true });
+        viewport.addEventListener("touchend", function() {
+          setTimeout(function() { isPaused = false; }, 800);
+        }, { passive: true });
+
+        window.addEventListener("resize", function() {
+          originalWidth = getOriginalWidth();
+        });
       }
 
+      setupMarquee("brandLogoTrack", "brandLogoViewport", ".brand-logo");
+      setupMarquee("brandLogoTrack2", "brandLogoViewport2", ".brand-logo-2");
 
-      animate();
-
-
-      /* ==========================================
-         PAUSE ON HOVER
-      ========================================== */
-
-      viewport.addEventListener("mouseenter", function() {
-
-        isPaused = true;
-
-      });
-
-
-      viewport.addEventListener("mouseleave", function() {
-
-        isPaused = false;
-
-      });
-
-
-      /* ==========================================
-         MOBILE TOUCH
-      ========================================== */
-
-      viewport.addEventListener(
-        "touchstart",
-        function() {
-
-          isPaused = true;
-
-        }, {
-          passive: true
-        }
-      );
-
-
-      viewport.addEventListener(
-        "touchend",
-        function() {
-
-          setTimeout(function() {
-
-            isPaused = false;
-
-          }, 800);
-
-        }, {
-          passive: true
-        }
-      );
-
-
-      /* ==========================================
-         RESPONSIVE WIDTH
-      ========================================== */
-
-      window.addEventListener("resize", function() {
-
-        originalWidth = getOriginalWidth();
-
-      });
-
-    });
 
      (function () {
     var modal = document.getElementById('btsModal');
@@ -2268,6 +2024,28 @@
       if (e.key === 'Escape') closeModal();
     });
   })();
+
+
+      /* ==========================================
+         TEXT REVEAL ON SCROLL
+         Same restrained fade + rise system used on
+         the About page. Runs once per element.
+      ========================================== */
+
+      const revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            revealObserver.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+
+      document.querySelectorAll('.reveal').forEach(el => {
+        revealObserver.observe(el);
+      });
+
+    });
   </script>
 
 

@@ -6,123 +6,85 @@
     <title>About Us</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/3.4.3/tailwind.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-    <style>
-      /* =========================================================
-         SIMPLE, RESTRAINED TEXT ANIMATION SYSTEM
-         - Hero content animates in on load (staggered).
-         - Everything below animates in once, on scroll.
-         - Respects prefers-reduced-motion.
-      ========================================================= */
-
-      .reveal {
-        opacity: 0;
-        transform: translateY(18px);
-        transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1),
-                    transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
-        will-change: opacity, transform;
-      }
-
-      .reveal.is-visible {
-        opacity: 1;
-        transform: translateY(0);
-      }
-
-      /* stagger helper: add alongside .reveal, delay applied via style attr fallback */
-      .reveal-delay-1 { transition-delay: 0.1s; }
-      .reveal-delay-2 { transition-delay: 0.2s; }
-      .reveal-delay-3 { transition-delay: 0.3s; }
-      .reveal-delay-4 { transition-delay: 0.4s; }
-      .reveal-delay-5 { transition-delay: 0.5s; }
-      .reveal-delay-6 { transition-delay: 0.6s; }
-
-      @media (prefers-reduced-motion: reduce) {
-        .reveal {
-          opacity: 1;
-          transform: none;
-          transition: none;
-        }
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <?php include "./navbar.php" ?>
 
     <!-- =========================================================
-         ABOUT HERO SECTION
-    ========================================================= -->
-    <section class="w-full bg-[#0a0a0f] text-[#f5f1eb] overflow-hidden">
-      <div class="mx-auto flex w-full max-w-[1535px] flex-col lg:flex-row items-center gap-14 px-6 py-20 sm:px-10 sm:py-24 lg:px-14 lg:py-32 xl:px-16">
+     ABOUT HERO SECTION
+========================================================= -->
+<section class="w-full bg-[#0a0a0f] text-[#f5f1eb] overflow-hidden">
+  <div class="mx-auto flex w-full max-w-[1320px] flex-col lg:flex-row items-center gap-14 px-5 py-20 sm:px-8 sm:py-24 lg:px-10 lg:py-32">
 
-        <!-- Left: text content -->
-        <div class="w-full lg:w-[52%] max-w-[760px]">
+    <!-- Left: text content -->
+    <div class="w-full lg:w-[52%] max-w-[760px]">
 
-          <!-- Label -->
-          <p class="reveal reveal-delay-1 mb-5 text-[9px] font-medium uppercase tracking-[0.22em] text-[#f28a24] sm:mb-6 sm:text-[10px]">
-            About The Studio
-          </p>
+      <!-- Label -->
+      <p class="reveal reveal-delay-1 mb-5 text-[9px] font-medium uppercase tracking-[0.22em] text-[#f28a24] sm:mb-6 sm:text-[10px]">
+        About The Studio
+      </p>
 
-          <!-- Main Heading -->
-          <h1 class="reveal reveal-delay-2 font-['Playfair_Display',serif] text-[40px] font-normal leading-[1] tracking-[-0.04em] text-[#f5f1eb] sm:text-[52px] md:text-[60px] lg:text-[62px] xl:text-[68px]">
-            Creative strategies that
-            <br class="hidden sm:block">
-            drive real growth
-          </h1>
+     <!-- Main Heading -->
+<h1 class="reveal reveal-delay-2 font-['Playfair_Display',serif] text-[32px] font-normal leading-[1.05] tracking-[-0.03em] text-[#f5f1eb] sm:text-[40px] md:text-[46px] lg:text-[50px] xl:text-[54px]">
+  Creative strategies that
+  <br class="hidden sm:block">
+  drive real growth
+</h1>
 
-          <!-- Description -->
-          <p class="reveal reveal-delay-3 mt-6 max-w-[560px] text-[12px] font-normal leading-[1.75] text-[#aeb3b7] sm:mt-7 sm:text-[13px] md:text-[14px]">
-            At <span class="font-semibold text-[#f5f1eb]">Twinkle Media Hub Pvt. Ltd.</span>, we are a creative
-            and result-oriented digital marketing company in Navi Mumbai, offering
-            affordable and customized solutions for brands across Mumbai and Pan India.
-            We specialize in SEO, PPC campaigns, social media marketing, website
-            development, graphic designing, along with video production, commercial
-            shoots, AI videos, and UGC content.
-          </p>
+      <!-- Description -->
+      <p class="reveal reveal-delay-3 mt-6 max-w-[560px] text-[12px] font-normal leading-[1.75] text-[#aeb3b7] sm:mt-7 sm:text-[13px] md:text-[14px]">
+        At <span class="font-semibold text-[#f5f1eb]">Twinkle Media Hub Pvt. Ltd.</span>, we are a creative
+        and result-oriented digital marketing company in Navi Mumbai, offering
+        affordable and customized solutions for brands across Mumbai and Pan India.
+        We specialize in SEO, PPC campaigns, social media marketing, website
+        development, graphic designing, along with video production, commercial
+        shoots, AI videos, and UGC content.
+      </p>
 
-          <p class="reveal reveal-delay-4 mt-5 max-w-[560px] text-[12px] font-normal leading-[1.75] text-[#aeb3b7] sm:text-[13px] md:text-[14px]">
-            We craft <span class="font-semibold text-[#f5f1eb]">impactful campaigns</span> that communicate your
-            brand story, build trust, generate quality leads, and deliver measurable
-            growth. With a perfect blend of strategic thinking, innovative
-            <span class="font-semibold text-[#f5f1eb]"> creativity</span>, data-driven execution, and
-            <span class="font-semibold text-[#f5f1eb]"> performance marketing</span>, we help businesses of all
-            sizes stand out in the competitive digital landscape through flexible,
-            cost-effective, and <span class="font-semibold text-[#f5f1eb]">high-quality solutions</span>.
-          </p>
+      <p class="reveal reveal-delay-4 mt-5 max-w-[560px] text-[12px] font-normal leading-[1.75] text-[#aeb3b7] sm:text-[13px] md:text-[14px]">
+        We craft <span class="font-semibold text-[#f5f1eb]">impactful campaigns</span> that communicate your
+        brand story, build trust, generate quality leads, and deliver measurable
+        growth. With a perfect blend of strategic thinking, innovative
+        <span class="font-semibold text-[#f5f1eb]"> creativity</span>, data-driven execution, and
+        <span class="font-semibold text-[#f5f1eb]"> performance marketing</span>, we help businesses of all
+        sizes stand out in the competitive digital landscape through flexible,
+        cost-effective, and <span class="font-semibold text-[#f5f1eb]">high-quality solutions</span>.
+      </p>
 
-          <!-- CTA -->
-          <a href="#contact" class="reveal reveal-delay-5 mt-9 inline-flex items-center justify-center rounded-full bg-[#f28a24] px-8 py-3 text-[13px] font-semibold text-[#0a0a0f] tracking-wide transition hover:bg-[#f5f1eb] sm:mt-10">
-            Get Started
-          </a>
+      <!-- CTA -->
+      <a href="#contact" class="reveal reveal-delay-5 mt-9 inline-flex items-center justify-center rounded-full bg-[#f28a24] px-8 py-3 text-[13px] font-semibold text-[#0a0a0f] tracking-wide transition hover:bg-[#f5f1eb] sm:mt-10">
+        Get Started
+      </a>
 
-        </div>
+    </div>
 
-        <!-- Right: image / word-cloud graphic -->
-        <div class="reveal reveal-delay-3 w-full lg:w-[48%] flex justify-center lg:justify-end">
-          <div class="relative w-full max-w-[560px] aspect-square">
+    <!-- Right: image / word-cloud graphic -->
+    <div class="reveal reveal-delay-3 w-full lg:w-[48%] flex justify-center lg:justify-end">
+      <div class="relative w-full max-w-[560px] aspect-square">
 
-            <!-- glow backdrop -->
-            <div class="absolute inset-0 blur-3xl"></div>
+        <!-- glow backdrop -->
+        <div class="absolute inset-0 blur-3xl"></div>
 
-            <!-- swap this img for your own artwork/photo -->
-            <img
-              src="./assets/digitalwebsite1.webp"
-              alt="Twinkle Media Hub — digital marketing services"
-              class="relative z-10 w-full h-full object-contain"
-              onerror="this.style.display='none'"
-            >
-
-          </div>
-        </div>
+        <!-- swap this img for your own artwork/photo -->
+        <img
+          src="./assets/digitalwebsite1.webp"
+          alt="Twinkle Media Hub — digital marketing services"
+          class="relative z-10 w-full h-full object-contain"
+          onerror="this.style.display='none'"
+        >
 
       </div>
-    </section>
+    </div>
 
+  </div>
+</section>
 
     <!-- =========================================================
          MISSION & VISION SECTION
     ========================================================= -->
     <section class="w-full bg-[#0a0a0f]">
-      <div class="mx-auto max-w-[1535px] px-6 py-16 sm:px-10 sm:py-20 lg:px-14 lg:py-20 xl:px-16">
+      <div class="mx-auto max-w-[1320px] px-5 py-16 sm:px-8 sm:py-20 lg:px-10 lg:py-20">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16">
 
           <!-- Our Mission -->
@@ -158,12 +120,11 @@
       </div>
     </section>
 
-
     <!-- =========================================================
          WHY CHOOSE US SECTION
     ========================================================= -->
     <section class="w-full bg-[#0a0a0f]">
-      <div class="mx-auto max-w-[1535px] px-6 py-16 sm:px-10 sm:py-20 lg:px-14 lg:py-20 xl:px-16 border-t border-[#2a2d30]">
+      <div class="mx-auto max-w-[1320px] px-5 py-16 sm:px-8 sm:py-20 lg:px-10 lg:py-20 border-t border-[#2a2d30]">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
 
           <!-- Left column -->
