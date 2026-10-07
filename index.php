@@ -8,7 +8,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="style.css">
 
-  
+
 </head>
 
 <body>
@@ -19,7 +19,7 @@
   include "./hero.php"
   ?>
 
-   <!-- =========================================
+  <!-- =========================================
      TRUSTED BY BRANDS
 ========================================== -->
 
@@ -48,7 +48,7 @@
 
 
 
-    
+
 
 
     <!-- =========================================
@@ -322,394 +322,394 @@
          SERVICES GRID
     ================================================== -->
 
-    <!-- =================================================
+      <!-- =================================================
      SERVICES GRID
 ================================================== -->
 
-<div
-  class="grid grid-cols-1 border-l border-t border-white/10 sm:grid-cols-2 lg:grid-cols-4">
+      <div
+        class="grid grid-cols-1 border-l border-t border-white/10 sm:grid-cols-2 lg:grid-cols-4">
 
-  <!-- =================================================
+        <!-- =================================================
      CARD 01
   ================================================== -->
 
-  <a
-    href="./servicecommerial.php"
-    class="group relative block min-h-[320px] overflow-hidden border-b border-r border-white/10 cursor-pointer">
+        <a
+          href="./servicecommerial.php"
+          class="group relative block min-h-[320px] overflow-hidden border-b border-r border-white/10 cursor-pointer">
 
-    <!-- BACKGROUND IMAGE -->
-    <div
-      class="absolute inset-0 z-0 opacity-0 transition-opacity duration-500 ease-out group-hover:opacity-100">
+          <!-- BACKGROUND IMAGE -->
+          <div
+            class="absolute inset-0 z-0 opacity-0 transition-opacity duration-500 ease-out group-hover:opacity-100">
 
-      <img
-        src="./assets/commercial2.webp"
-        alt="Commercial Ads"
-        class="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" />
+            <img
+              src="./assets/commercial2.webp"
+              alt="Commercial Ads"
+              class="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" />
 
-      <div class="absolute inset-0 bg-black/50"></div>
-      <div class="absolute inset-0 bg-gradient-to-t from-black/65 via-black/30 to-black/10"></div>
-    </div>
+            <div class="absolute inset-0 bg-black/50"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-black/65 via-black/30 to-black/10"></div>
+          </div>
 
-    <!-- CARD CONTENT -->
-    <div class="relative z-10 flex h-full min-h-[320px] flex-col p-6 sm:p-7">
+          <!-- CARD CONTENT -->
+          <div class="relative z-10 flex h-full min-h-[320px] flex-col p-6 sm:p-7">
 
-      <div class="flex items-center justify-between">
-        <span class="font-['Playfair_Display'] text-[18px] font-normal text-[#ed963c]">
-          01
-        </span>
+            <div class="flex items-center justify-between">
+              <span class="font-['Playfair_Display'] text-[18px] font-normal text-[#ed963c]">
+                01
+              </span>
 
-        <span class="font-['Montserrat'] text-[18px] font-light text-white/60 transition-all duration-300 group-hover:translate-x-1 group-hover:text-white">
-          ↗
-        </span>
-      </div>
+              <span class="font-['Montserrat'] text-[18px] font-light text-white/60 transition-all duration-300 group-hover:translate-x-1 group-hover:text-white">
+                ↗
+              </span>
+            </div>
 
-      <div class="mt-auto">
-        <h3 class="font-['Playfair_Display'] text-[29px] font-normal leading-[1.05] tracking-[-0.8px] text-[#f5f3ef] sm:text-[30px]">
-          Commercial Ads
-        </h3>
+            <div class="mt-auto">
+              <h3 class="font-['Playfair_Display'] text-[29px] font-normal leading-[1.05] tracking-[-0.8px] text-[#f5f3ef] sm:text-[30px]">
+                Commercial Ads
+              </h3>
 
-        <p class="mt-5 max-w-[280px] font-['Montserrat'] text-[12px] font-normal leading-[1.65] text-white/55 transition-colors duration-300 group-hover:text-white/75">
-          Creative advertising campaigns designed to capture attention and drive action.
-        </p>
+              <p class="mt-5 max-w-[280px] font-['Montserrat'] text-[12px] font-normal leading-[1.65] text-white/55 transition-colors duration-300 group-hover:text-white/75">
+                Creative advertising campaigns designed to capture attention and drive action.
+              </p>
 
-        <div class="mt-5 font-['Montserrat'] text-[9px] font-semibold uppercase tracking-[2px] text-[#ed963c] opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-          Explore
-        </div>
-      </div>
-    </div>
-  </a>
+              <div class="mt-5 font-['Montserrat'] text-[9px] font-semibold uppercase tracking-[2px] text-[#ed963c] opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                Explore
+              </div>
+            </div>
+          </div>
+        </a>
 
 
-  <!-- =================================================
+        <!-- =================================================
      CARD 02
   ================================================== -->
 
-  <a
-    href="./smmservice.php"
-    class="group relative block min-h-[320px] overflow-hidden border-b border-r border-white/10 cursor-pointer">
+        <a
+          href="./smmservice.php"
+          class="group relative block min-h-[320px] overflow-hidden border-b border-r border-white/10 cursor-pointer">
 
-    <div class="absolute inset-0 z-0 opacity-0 transition-opacity duration-500 ease-out group-hover:opacity-100">
+          <div class="absolute inset-0 z-0 opacity-0 transition-opacity duration-500 ease-out group-hover:opacity-100">
 
-      <img
-        src="./assets/SMM.jpg"
-        alt="Social Media Marketing"
-        class="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" />
+            <img
+              src="./assets/SMM.jpg"
+              alt="Social Media Marketing"
+              class="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" />
 
-      <div class="absolute inset-0 bg-black/50"></div>
-      <div class="absolute inset-0 bg-gradient-to-t from-black/65 via-black/30 to-black/10"></div>
-    </div>
+            <div class="absolute inset-0 bg-black/50"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-black/65 via-black/30 to-black/10"></div>
+          </div>
 
-    <div class="relative z-10 flex h-full min-h-[320px] flex-col p-6 sm:p-7">
+          <div class="relative z-10 flex h-full min-h-[320px] flex-col p-6 sm:p-7">
 
-      <div class="flex items-center justify-between">
-        <span class="font-['Playfair_Display'] text-[18px] text-[#ed963c]">02</span>
+            <div class="flex items-center justify-between">
+              <span class="font-['Playfair_Display'] text-[18px] text-[#ed963c]">02</span>
 
-        <span class="font-['Montserrat'] text-[18px] font-light text-white/60 transition-all duration-300 group-hover:translate-x-1 group-hover:text-white">
-          ↗
-        </span>
-      </div>
+              <span class="font-['Montserrat'] text-[18px] font-light text-white/60 transition-all duration-300 group-hover:translate-x-1 group-hover:text-white">
+                ↗
+              </span>
+            </div>
 
-      <div class="mt-auto">
-        <h3 class="max-w-[240px] font-['Playfair_Display'] text-[29px] font-normal leading-[1.05] tracking-[-0.8px] text-[#f5f3ef]">
-          Social Media
-          <br />
-          Marketing
-        </h3>
+            <div class="mt-auto">
+              <h3 class="max-w-[240px] font-['Playfair_Display'] text-[29px] font-normal leading-[1.05] tracking-[-0.8px] text-[#f5f3ef]">
+                Social Media
+                <br />
+                Marketing
+              </h3>
 
-        <p class="mt-5 max-w-[280px] font-['Montserrat'] text-[12px] leading-[1.65] text-white/55">
-          Strategic content, campaigns, and community-building that keep your brand relevant.
-        </p>
+              <p class="mt-5 max-w-[280px] font-['Montserrat'] text-[12px] leading-[1.65] text-white/55">
+                Strategic content, campaigns, and community-building that keep your brand relevant.
+              </p>
 
-        <div class="mt-5 font-['Montserrat'] text-[9px] font-semibold uppercase tracking-[2px] text-[#ed963c] opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-          Explore
-        </div>
-      </div>
-    </div>
-  </a>
+              <div class="mt-5 font-['Montserrat'] text-[9px] font-semibold uppercase tracking-[2px] text-[#ed963c] opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                Explore
+              </div>
+            </div>
+          </div>
+        </a>
 
 
-  <!-- =================================================
+        <!-- =================================================
      CARD 03
   ================================================== -->
 
-  <a
-    href="./seoservice.php"
-    class="group relative block min-h-[320px] overflow-hidden border-b border-r border-white/10 cursor-pointer">
+        <a
+          href="./seoservice.php"
+          class="group relative block min-h-[320px] overflow-hidden border-b border-r border-white/10 cursor-pointer">
 
-    <div class="absolute inset-0 z-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+          <div class="absolute inset-0 z-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
 
-      <img
-        src="./assets/SEO.png"
-        alt="SEO"
-        class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
+            <img
+              src="./assets/SEO.png"
+              alt="SEO"
+              class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
 
-      <div class="absolute inset-0 bg-black/50"></div>
-      <div class="absolute inset-0 bg-gradient-to-t from-black/65 via-black/30 to-black/10"></div>
-    </div>
+            <div class="absolute inset-0 bg-black/50"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-black/65 via-black/30 to-black/10"></div>
+          </div>
 
-    <div class="relative z-10 flex h-full min-h-[320px] flex-col p-6 sm:p-7">
+          <div class="relative z-10 flex h-full min-h-[320px] flex-col p-6 sm:p-7">
 
-      <div class="flex items-center justify-between">
-        <span class="font-['Playfair_Display'] text-[18px] text-[#ed963c]">03</span>
+            <div class="flex items-center justify-between">
+              <span class="font-['Playfair_Display'] text-[18px] text-[#ed963c]">03</span>
 
-        <span class="font-['Montserrat'] text-[18px] font-light text-white/60 transition-all duration-300 group-hover:translate-x-1 group-hover:text-white">
-          ↗
-        </span>
-      </div>
+              <span class="font-['Montserrat'] text-[18px] font-light text-white/60 transition-all duration-300 group-hover:translate-x-1 group-hover:text-white">
+                ↗
+              </span>
+            </div>
 
-      <div class="mt-auto">
-        <h3 class="font-['Playfair_Display'] text-[29px] font-normal leading-[1.05] tracking-[-0.8px] text-[#f5f3ef]">
-          SEO
-        </h3>
+            <div class="mt-auto">
+              <h3 class="font-['Playfair_Display'] text-[29px] font-normal leading-[1.05] tracking-[-0.8px] text-[#f5f3ef]">
+                SEO
+              </h3>
 
-        <p class="mt-5 max-w-[280px] font-['Montserrat'] text-[12px] leading-[1.65] text-white/55">
-          Search strategies that improve visibility, organic traffic, and long-term discoverability.
-        </p>
+              <p class="mt-5 max-w-[280px] font-['Montserrat'] text-[12px] leading-[1.65] text-white/55">
+                Search strategies that improve visibility, organic traffic, and long-term discoverability.
+              </p>
 
-        <div class="mt-5 font-['Montserrat'] text-[9px] font-semibold uppercase tracking-[2px] text-[#ed963c] opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-          Explore
-        </div>
-      </div>
-    </div>
-  </a>
+              <div class="mt-5 font-['Montserrat'] text-[9px] font-semibold uppercase tracking-[2px] text-[#ed963c] opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                Explore
+              </div>
+            </div>
+          </div>
+        </a>
 
 
-  <!-- =================================================
+        <!-- =================================================
      CARD 04
   ================================================== -->
 
-  <a
-    href="./webdevelopmentService.php"
-    class="group relative block min-h-[320px] overflow-hidden border-b border-r border-white/10 cursor-pointer">
+        <a
+          href="./webdevelopmentService.php"
+          class="group relative block min-h-[320px] overflow-hidden border-b border-r border-white/10 cursor-pointer">
 
-    <div class="absolute inset-0 z-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+          <div class="absolute inset-0 z-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
 
-      <img
-        src="./assets/website.webp"
-        alt="Website Development"
-        class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
+            <img
+              src="./assets/website.webp"
+              alt="Website Development"
+              class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
 
-      <div class="absolute inset-0 bg-black/50"></div>
-      <div class="absolute inset-0 bg-gradient-to-t from-black/65 via-black/30 to-black/10"></div>
-    </div>
+            <div class="absolute inset-0 bg-black/50"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-black/65 via-black/30 to-black/10"></div>
+          </div>
 
-    <div class="relative z-10 flex h-full min-h-[320px] flex-col p-6 sm:p-7">
+          <div class="relative z-10 flex h-full min-h-[320px] flex-col p-6 sm:p-7">
 
-      <div class="flex items-center justify-between">
-        <span class="font-['Playfair_Display'] text-[18px] text-[#ed963c]">04</span>
+            <div class="flex items-center justify-between">
+              <span class="font-['Playfair_Display'] text-[18px] text-[#ed963c]">04</span>
 
-        <span class="font-['Montserrat'] text-[18px] font-light text-white/60 transition-all duration-300 group-hover:translate-x-1 group-hover:text-white">
-          ↗
-        </span>
-      </div>
+              <span class="font-['Montserrat'] text-[18px] font-light text-white/60 transition-all duration-300 group-hover:translate-x-1 group-hover:text-white">
+                ↗
+              </span>
+            </div>
 
-      <div class="mt-auto">
-        <h3 class="font-['Playfair_Display'] text-[29px] font-normal leading-[1.05] tracking-[-0.8px] text-[#f5f3ef]">
-          Website Development
-        </h3>
+            <div class="mt-auto">
+              <h3 class="font-['Playfair_Display'] text-[29px] font-normal leading-[1.05] tracking-[-0.8px] text-[#f5f3ef]">
+                Website Development
+              </h3>
 
-        <p class="mt-5 max-w-[290px] font-['Montserrat'] text-[12px] leading-[1.65] text-white/55">
-          Modern, responsive websites designed around your brand, audience, and business goals.
-        </p>
+              <p class="mt-5 max-w-[290px] font-['Montserrat'] text-[12px] leading-[1.65] text-white/55">
+                Modern, responsive websites designed around your brand, audience, and business goals.
+              </p>
 
-        <div class="mt-5 font-['Montserrat'] text-[9px] font-semibold uppercase tracking-[2px] text-[#ed963c] opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-          Explore
-        </div>
-      </div>
-    </div>
-  </a>
+              <div class="mt-5 font-['Montserrat'] text-[9px] font-semibold uppercase tracking-[2px] text-[#ed963c] opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                Explore
+              </div>
+            </div>
+          </div>
+        </a>
 
 
-  <!-- =================================================
+        <!-- =================================================
      CARD 05
   ================================================== -->
 
-  <a
-    href="./video&mediaservice.php"
-    class="group relative block min-h-[320px] overflow-hidden border-b border-r border-white/10 cursor-pointer">
+        <a
+          href="./video&mediaservice.php"
+          class="group relative block min-h-[320px] overflow-hidden border-b border-r border-white/10 cursor-pointer">
 
-    <div class="absolute inset-0 z-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+          <div class="absolute inset-0 z-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
 
-      <img
-        src="./assets/video&marketing.webp"
-        alt="Video and Media Production"
-        class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
+            <img
+              src="./assets/video&marketing.webp"
+              alt="Video and Media Production"
+              class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
 
-      <div class="absolute inset-0 bg-black/50"></div>
-      <div class="absolute inset-0 bg-gradient-to-t from-black/65 via-black/30 to-black/10"></div>
-    </div>
+            <div class="absolute inset-0 bg-black/50"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-black/65 via-black/30 to-black/10"></div>
+          </div>
 
-    <div class="relative z-10 flex h-full min-h-[320px] flex-col p-6 sm:p-7">
+          <div class="relative z-10 flex h-full min-h-[320px] flex-col p-6 sm:p-7">
 
-      <div class="flex items-center justify-between">
-        <span class="font-['Playfair_Display'] text-[18px] text-[#ed963c]">05</span>
+            <div class="flex items-center justify-between">
+              <span class="font-['Playfair_Display'] text-[18px] text-[#ed963c]">05</span>
 
-        <span class="font-['Montserrat'] text-[18px] font-light text-white/60 transition-all duration-300 group-hover:translate-x-1 group-hover:text-white">
-          ↗
-        </span>
-      </div>
+              <span class="font-['Montserrat'] text-[18px] font-light text-white/60 transition-all duration-300 group-hover:translate-x-1 group-hover:text-white">
+                ↗
+              </span>
+            </div>
 
-      <div class="mt-auto">
-        <h3 class="max-w-[260px] font-['Playfair_Display'] text-[29px] font-normal leading-[1.05] tracking-[-0.8px] text-[#f5f3ef]">
-          Video &amp; Media
-          <br />
-          Production
-        </h3>
+            <div class="mt-auto">
+              <h3 class="max-w-[260px] font-['Playfair_Display'] text-[29px] font-normal leading-[1.05] tracking-[-0.8px] text-[#f5f3ef]">
+                Video &amp; Media
+                <br />
+                Production
+              </h3>
 
-        <p class="mt-5 max-w-[280px] font-['Montserrat'] text-[12px] leading-[1.65] text-white/55">
-          Professional video production, editing, storytelling, and visual content.
-        </p>
+              <p class="mt-5 max-w-[280px] font-['Montserrat'] text-[12px] leading-[1.65] text-white/55">
+                Professional video production, editing, storytelling, and visual content.
+              </p>
 
-        <div class="mt-5 font-['Montserrat'] text-[9px] font-semibold uppercase tracking-[2px] text-[#ed963c] opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-          Explore
-        </div>
-      </div>
-    </div>
-  </a>
+              <div class="mt-5 font-['Montserrat'] text-[9px] font-semibold uppercase tracking-[2px] text-[#ed963c] opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                Explore
+              </div>
+            </div>
+          </div>
+        </a>
 
 
-  <!-- =================================================
+        <!-- =================================================
      CARD 06
   ================================================== -->
 
-  <a
-    href="./performancemarketing.php"
-    class="group relative block min-h-[320px] overflow-hidden border-b border-r border-white/10 cursor-pointer">
+        <a
+          href="./performancemarketing.php"
+          class="group relative block min-h-[320px] overflow-hidden border-b border-r border-white/10 cursor-pointer">
 
-    <div class="absolute inset-0 z-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+          <div class="absolute inset-0 z-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
 
-      <img
-        src="./assets/performance&marketing.jpg"
-        alt="Performance Marketing"
-        class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
+            <img
+              src="./assets/performance&marketing.jpg"
+              alt="Performance Marketing"
+              class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
 
-      <div class="absolute inset-0 bg-black/50"></div>
-      <div class="absolute inset-0 bg-gradient-to-t from-black/65 via-black/30 to-black/10"></div>
-    </div>
+            <div class="absolute inset-0 bg-black/50"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-black/65 via-black/30 to-black/10"></div>
+          </div>
 
-    <div class="relative z-10 flex h-full min-h-[320px] flex-col p-6 sm:p-7">
+          <div class="relative z-10 flex h-full min-h-[320px] flex-col p-6 sm:p-7">
 
-      <div class="flex items-center justify-between">
-        <span class="font-['Playfair_Display'] text-[18px] text-[#ed963c]">06</span>
+            <div class="flex items-center justify-between">
+              <span class="font-['Playfair_Display'] text-[18px] text-[#ed963c]">06</span>
 
-        <span class="font-['Montserrat'] text-[18px] font-light text-white/60 transition-all duration-300 group-hover:translate-x-1 group-hover:text-white">
-          ↗
-        </span>
-      </div>
+              <span class="font-['Montserrat'] text-[18px] font-light text-white/60 transition-all duration-300 group-hover:translate-x-1 group-hover:text-white">
+                ↗
+              </span>
+            </div>
 
-      <div class="mt-auto">
-        <h3 class="max-w-[250px] font-['Playfair_Display'] text-[29px] font-normal leading-[1.05] tracking-[-0.8px] text-[#f5f3ef]">
-          Performance
-          <br />
-          Marketing
-        </h3>
+            <div class="mt-auto">
+              <h3 class="max-w-[250px] font-['Playfair_Display'] text-[29px] font-normal leading-[1.05] tracking-[-0.8px] text-[#f5f3ef]">
+                Performance
+                <br />
+                Marketing
+              </h3>
 
-        <p class="mt-5 max-w-[280px] font-['Montserrat'] text-[12px] leading-[1.65] text-white/55">
-          Data-driven advertising campaigns focused on measurable growth and conversions.
-        </p>
+              <p class="mt-5 max-w-[280px] font-['Montserrat'] text-[12px] leading-[1.65] text-white/55">
+                Data-driven advertising campaigns focused on measurable growth and conversions.
+              </p>
 
-        <div class="mt-5 font-['Montserrat'] text-[9px] font-semibold uppercase tracking-[2px] text-[#ed963c] opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-          Explore
-        </div>
-      </div>
-    </div>
-  </a>
+              <div class="mt-5 font-['Montserrat'] text-[9px] font-semibold uppercase tracking-[2px] text-[#ed963c] opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                Explore
+              </div>
+            </div>
+          </div>
+        </a>
 
 
-  <!-- =================================================
+        <!-- =================================================
      CARD 07
   ================================================== -->
 
-  <a
-    href="./animationvideo.php"
-    class="group relative block min-h-[320px] overflow-hidden border-b border-r border-white/10 cursor-pointer">
+        <a
+          href="./animationvideo.php"
+          class="group relative block min-h-[320px] overflow-hidden border-b border-r border-white/10 cursor-pointer">
 
-    <div class="absolute inset-0 z-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+          <div class="absolute inset-0 z-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
 
-      <img
-        src="./assets/animation.avif"
-        alt="Animated Videos"
-        class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
+            <img
+              src="./assets/animation.avif"
+              alt="Animated Videos"
+              class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
 
-      <div class="absolute inset-0 bg-black/50"></div>
-      <div class="absolute inset-0 bg-gradient-to-t from-black/65 via-black/30 to-black/10"></div>
-    </div>
+            <div class="absolute inset-0 bg-black/50"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-black/65 via-black/30 to-black/10"></div>
+          </div>
 
-    <div class="relative z-10 flex h-full min-h-[320px] flex-col p-6 sm:p-7">
+          <div class="relative z-10 flex h-full min-h-[320px] flex-col p-6 sm:p-7">
 
-      <div class="flex items-center justify-between">
-        <span class="font-['Playfair_Display'] text-[18px] text-[#ed963c]">07</span>
+            <div class="flex items-center justify-between">
+              <span class="font-['Playfair_Display'] text-[18px] text-[#ed963c]">07</span>
 
-        <span class="font-['Montserrat'] text-[18px] font-light text-white/60 transition-all duration-300 group-hover:translate-x-1 group-hover:text-white">
-          ↗
-        </span>
-      </div>
+              <span class="font-['Montserrat'] text-[18px] font-light text-white/60 transition-all duration-300 group-hover:translate-x-1 group-hover:text-white">
+                ↗
+              </span>
+            </div>
 
-      <div class="mt-auto">
-        <h3 class="font-['Playfair_Display'] text-[29px] font-normal leading-[1.05] tracking-[-0.8px] text-[#f5f3ef]">
-          Animated Videos
-        </h3>
+            <div class="mt-auto">
+              <h3 class="font-['Playfair_Display'] text-[29px] font-normal leading-[1.05] tracking-[-0.8px] text-[#f5f3ef]">
+                Animated Videos
+              </h3>
 
-        <p class="mt-5 max-w-[280px] font-['Montserrat'] text-[12px] leading-[1.65] text-white/55">
-          Engaging animated content that simplifies ideas and makes brands memorable.
-        </p>
+              <p class="mt-5 max-w-[280px] font-['Montserrat'] text-[12px] leading-[1.65] text-white/55">
+                Engaging animated content that simplifies ideas and makes brands memorable.
+              </p>
 
-        <div class="mt-5 font-['Montserrat'] text-[9px] font-semibold uppercase tracking-[2px] text-[#ed963c] opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-          Explore
-        </div>
-      </div>
-    </div>
-  </a>
+              <div class="mt-5 font-['Montserrat'] text-[9px] font-semibold uppercase tracking-[2px] text-[#ed963c] opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                Explore
+              </div>
+            </div>
+          </div>
+        </a>
 
 
-  <!-- =================================================
+        <!-- =================================================
      CARD 08
   ================================================== -->
 
-  <a
-    href="./creative&branding.php"
-    class="group relative block min-h-[380px] overflow-hidden border-b border-r border-white/10 cursor-pointer">
+        <a
+          href="./creative&branding.php"
+          class="group relative block min-h-[380px] overflow-hidden border-b border-r border-white/10 cursor-pointer">
 
-    <div class="absolute inset-0 z-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+          <div class="absolute inset-0 z-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
 
-      <img
-        src="./assets/graphicdesign.webp"
-        alt="Creative and Branding"
-        class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
+            <img
+              src="./assets/graphicdesign.webp"
+              alt="Creative and Branding"
+              class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
 
-      <div class="absolute inset-0 bg-black/50"></div>
-      <div class="absolute inset-0 bg-gradient-to-t from-black/65 via-black/30 to-black/10"></div>
+            <div class="absolute inset-0 bg-black/50"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-black/65 via-black/30 to-black/10"></div>
+          </div>
+
+          <div class="relative z-10 flex h-full min-h-[320px] flex-col p-6 sm:p-7">
+
+            <div class="flex items-center justify-between">
+              <span class="font-['Playfair_Display'] text-[18px] text-[#ed963c]">08</span>
+
+              <span class="font-['Montserrat'] text-[18px] font-light text-white/60 transition-all duration-300 group-hover:translate-x-1 group-hover:text-white">
+                ↗
+              </span>
+            </div>
+
+            <div class="mt-auto">
+              <h3 class="font-['Playfair_Display'] text-[29px] font-normal leading-[1.05] tracking-[-0.8px] text-[#f5f3ef]">
+                Creative &amp; Branding
+              </h3>
+
+              <p class="mt-5 max-w-[290px] font-['Montserrat'] text-[12px] leading-[1.65] text-white/55">
+                Visual identities, campaign concepts, content, and creative direction that make your brand stand out.
+              </p>
+
+              <div class="mt-5 font-['Montserrat'] text-[9px] font-semibold uppercase tracking-[2px] text-[#ed963c] opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                Explore
+              </div>
+            </div>
+          </div>
+        </a>
+
+      </div>
+
     </div>
-
-    <div class="relative z-10 flex h-full min-h-[320px] flex-col p-6 sm:p-7">
-
-      <div class="flex items-center justify-between">
-        <span class="font-['Playfair_Display'] text-[18px] text-[#ed963c]">08</span>
-
-        <span class="font-['Montserrat'] text-[18px] font-light text-white/60 transition-all duration-300 group-hover:translate-x-1 group-hover:text-white">
-          ↗
-        </span>
-      </div>
-
-      <div class="mt-auto">
-        <h3 class="font-['Playfair_Display'] text-[29px] font-normal leading-[1.05] tracking-[-0.8px] text-[#f5f3ef]">
-          Creative &amp; Branding
-        </h3>
-
-        <p class="mt-5 max-w-[290px] font-['Montserrat'] text-[12px] leading-[1.65] text-white/55">
-          Visual identities, campaign concepts, content, and creative direction that make your brand stand out.
-        </p>
-
-        <div class="mt-5 font-['Montserrat'] text-[9px] font-semibold uppercase tracking-[2px] text-[#ed963c] opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-          Explore
-        </div>
-      </div>
-    </div>
-  </a>
-
-</div>
-
-      </div>
 
     </div>
 
@@ -1530,223 +1530,209 @@
 
 
 
-<!-- =========================================================
+  <!-- =========================================================
      BEHIND THE SCENES SECTION — VIDEO ONLY
 ========================================================= -->
-<section class="w-full bg-[#0a0a0f] text-[#f5f1eb]">
-  <div class="mx-auto max-w-[1535px] px-4 py-16 sm:px-6 sm:py-20 md:px-10 md:py-24 lg:px-14 lg:py-28 xl:px-16">
+  <section class="w-full bg-[#0a0a0f] text-[#f5f1eb]">
+    <div class="mx-auto max-w-[1535px] px-4 py-16 sm:px-6 sm:py-20 md:px-10 md:py-24 lg:px-14 lg:py-28 xl:px-16">
 
-    <!-- Header -->
-    <div class="max-w-2xl mb-10 sm:mb-12 md:mb-16">
-      <p class="reveal mb-3 text-[9px] font-medium uppercase tracking-[0.22em] text-[#f28a24] sm:mb-4 sm:text-[10px]">
-        Behind The Scenes
-      </p>
-      <h2 class="reveal reveal-delay-1 font-['Playfair_Display',serif] text-[clamp(28px,6vw,56px)] leading-[1.08] tracking-[-0.02em] text-[#f5f1eb]">
-        Where the real work happens
-      </h2>
-      <p class="reveal reveal-delay-2 mt-4 max-w-lg text-[12px] sm:text-[13px] md:text-[14px] leading-relaxed text-[#aeb3b7]">
-        Shoots, edits, brainstorms, and the moments that never make the final cut.
-        Hover to preview, tap to watch in full.
-      </p>
+      <!-- Header -->
+      <div class="max-w-2xl mb-10 sm:mb-12 md:mb-16">
+        <p class="reveal mb-3 text-[9px] font-medium uppercase tracking-[0.22em] text-[#f28a24] sm:mb-4 sm:text-[10px]">
+          Behind The Scenes
+        </p>
+        <h2 class="reveal reveal-delay-1 font-['Playfair_Display',serif] text-[clamp(28px,6vw,56px)] leading-[1.08] tracking-[-0.02em] text-[#f5f1eb]">
+          Where the real work happens
+        </h2>
+        <p class="reveal reveal-delay-2 mt-4 max-w-lg text-[12px] sm:text-[13px] md:text-[14px] leading-relaxed text-[#aeb3b7]">
+          Shoots, edits, brainstorms, and the moments that never make the final cut.
+          Hover to preview, tap to watch in full.
+        </p>
+      </div>
+
+      <!-- Video Bento Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 md:gap-5 auto-rows-auto md:auto-rows-[200px] lg:auto-rows-[230px] xl:auto-rows-[260px] grid-flow-row-dense">
+
+        <!-- Video 1: large hero -->
+        <div
+          data-bts-video
+          data-src="https://www.w3schools.com/html/mov_bbb.mp4"
+          class="reveal group relative col-span-1 row-span-1 md:col-span-2 md:row-span-2 aspect-video md:aspect-auto h-full w-full overflow-hidden rounded-2xl border border-[#2a2d30] cursor-pointer bg-[#141518]">
+          <video
+            data-preview
+            class="absolute inset-0 h-full w-full object-cover opacity-90 transition duration-700 ease-out group-hover:scale-105 group-hover:opacity-100"
+            src="https://www.w3schools.com/html/mov_bbb.mp4"
+            muted loop playsinline preload="metadata"></video>
+          <div class="absolute inset-0 bg-gradient-to-t from-[#0a0a0f]/85 via-[#0a0a0f]/10 to-transparent"></div>
+          <div class="absolute inset-0 flex items-center justify-center">
+            <span class="flex h-14 w-14 sm:h-16 sm:w-16 md:h-20 md:w-20 items-center justify-center rounded-full bg-[#f28a24]/95 text-[#0a0a0f] shadow-[0_0_0_8px_rgba(242,138,36,0.15)] transition-transform duration-300 group-hover:scale-110">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 ml-0.5">
+                <path d="M8 5v14l11-7z"></path>
+              </svg>
+            </span>
+          </div>
+          <div class="absolute bottom-0 left-0 p-3 sm:p-4 md:p-6">
+            <p class="mb-1 text-[8px] sm:text-[9px] font-semibold uppercase tracking-[0.18em] text-[#f28a24]">Video &middot; 01:24</p>
+            <p class="font-['Playfair_Display',serif] text-base sm:text-lg md:text-2xl text-[#f5f1eb]">Studio Shoot Day</p>
+          </div>
+        </div>
+
+        <!-- Video 2 -->
+        <div
+          data-bts-video
+          data-src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          class="reveal reveal-delay-1 group relative col-span-1 row-span-1 aspect-video md:aspect-auto h-full w-full overflow-hidden rounded-2xl border border-[#2a2d30] cursor-pointer bg-[#141518]">
+          <video
+            data-preview
+            class="absolute inset-0 h-full w-full object-cover opacity-90 transition duration-700 ease-out group-hover:scale-105 group-hover:opacity-100"
+            src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+            muted loop playsinline preload="metadata"></video>
+          <div class="absolute inset-0 bg-gradient-to-t from-[#0a0a0f]/80 via-[#0a0a0f]/5 to-transparent"></div>
+          <div class="absolute inset-0 flex items-center justify-center">
+            <span class="flex h-10 w-10 sm:h-11 sm:w-11 md:h-12 md:w-12 items-center justify-center rounded-full bg-[#f28a24]/95 text-[#0a0a0f] transition-transform duration-300 group-hover:scale-110">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 md:w-5 md:h-5 ml-0.5">
+                <path d="M8 5v14l11-7z"></path>
+              </svg>
+            </span>
+          </div>
+          <div class="absolute bottom-0 left-0 p-3 md:p-4">
+            <p class="text-[9px] sm:text-[10px] md:text-xs font-medium text-[#f5f1eb]">Edit Bay</p>
+          </div>
+        </div>
+
+        <!-- Video 3 -->
+        <div
+          data-bts-video
+          data-src="https://www.w3schools.com/html/mov_bbb.mp4"
+          class="reveal reveal-delay-2 group relative col-span-1 row-span-1 aspect-video md:aspect-auto h-full w-full overflow-hidden rounded-2xl border border-[#2a2d30] cursor-pointer bg-[#141518]">
+          <video
+            data-preview
+            class="absolute inset-0 h-full w-full object-cover opacity-90 transition duration-700 ease-out group-hover:scale-105 group-hover:opacity-100"
+            src="https://www.w3schools.com/html/mov_bbb.mp4"
+            muted loop playsinline preload="metadata"></video>
+          <div class="absolute inset-0 bg-gradient-to-t from-[#0a0a0f]/80 via-[#0a0a0f]/5 to-transparent"></div>
+          <div class="absolute inset-0 flex items-center justify-center">
+            <span class="flex h-10 w-10 sm:h-11 sm:w-11 md:h-12 md:w-12 items-center justify-center rounded-full bg-[#f28a24]/95 text-[#0a0a0f] transition-transform duration-300 group-hover:scale-110">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 md:w-5 md:h-5 ml-0.5">
+                <path d="M8 5v14l11-7z"></path>
+              </svg>
+            </span>
+          </div>
+          <div class="absolute bottom-0 left-0 p-3 md:p-4">
+            <p class="text-[9px] sm:text-[10px] md:text-xs font-medium text-[#f5f1eb]">Reel Making</p>
+          </div>
+        </div>
+
+        <!-- Video 4: tall -->
+        <div
+          data-bts-video
+          data-src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          class="reveal reveal-delay-3 group relative col-span-1 row-span-1 md:row-span-2 aspect-video md:aspect-auto h-full w-full overflow-hidden rounded-2xl border border-[#2a2d30] cursor-pointer bg-[#141518]">
+          <video
+            data-preview
+            class="absolute inset-0 h-full w-full object-cover opacity-90 transition duration-700 ease-out group-hover:scale-105 group-hover:opacity-100"
+            src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+            muted loop playsinline preload="metadata"></video>
+          <div class="absolute inset-0 bg-gradient-to-t from-[#0a0a0f]/85 via-[#0a0a0f]/10 to-transparent"></div>
+          <div class="absolute inset-0 flex items-center justify-center">
+            <span class="flex h-12 w-12 sm:h-14 sm:w-14 items-center justify-center rounded-full bg-[#f28a24]/95 text-[#0a0a0f] transition-transform duration-300 group-hover:scale-110">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 ml-0.5">
+                <path d="M8 5v14l11-7z"></path>
+              </svg>
+            </span>
+          </div>
+          <div class="absolute bottom-0 left-0 p-3 sm:p-4 md:p-5">
+            <p class="mb-1 text-[8px] sm:text-[9px] font-semibold uppercase tracking-[0.18em] text-[#f28a24]">On Location</p>
+            <p class="font-['Playfair_Display',serif] text-sm sm:text-base md:text-xl text-[#f5f1eb]">Camera &amp; Lighting Setup</p>
+          </div>
+        </div>
+
+        <!-- Video 5: wide -->
+        <div
+          data-bts-video
+          data-src="https://www.w3schools.com/html/mov_bbb.mp4"
+          class="reveal group relative col-span-1 row-span-1 md:col-span-2 aspect-video md:aspect-auto h-full w-full overflow-hidden rounded-2xl border border-[#2a2d30] cursor-pointer bg-[#141518]">
+          <video
+            data-preview
+            class="absolute inset-0 h-full w-full object-cover opacity-90 transition duration-700 ease-out group-hover:scale-105 group-hover:opacity-100"
+            src="https://www.w3schools.com/html/mov_bbb.mp4"
+            muted loop playsinline preload="metadata"></video>
+          <div class="absolute inset-0 bg-gradient-to-t from-[#0a0a0f]/85 via-[#0a0a0f]/10 to-transparent"></div>
+          <div class="absolute inset-0 flex items-center justify-center">
+            <span class="flex h-12 w-12 sm:h-14 sm:w-14 md:h-16 md:w-16 items-center justify-center rounded-full bg-[#f28a24]/95 text-[#0a0a0f] transition-transform duration-300 group-hover:scale-110">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 md:w-6 md:h-6 ml-0.5">
+                <path d="M8 5v14l11-7z"></path>
+              </svg>
+            </span>
+          </div>
+          <div class="absolute bottom-0 left-0 p-3 sm:p-4 md:p-5">
+            <p class="mb-1 text-[8px] sm:text-[9px] font-semibold uppercase tracking-[0.18em] text-[#f28a24]">Video &middot; 00:52</p>
+            <p class="font-['Playfair_Display',serif] text-sm sm:text-base md:text-xl text-[#f5f1eb]">Strategy &amp; Client Calls</p>
+          </div>
+        </div>
+
+        <!-- Video 6 -->
+        <div
+          data-bts-video
+          data-src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          class="reveal reveal-delay-1 group relative col-span-1 row-span-1 aspect-video md:aspect-auto h-full w-full overflow-hidden rounded-2xl border border-[#2a2d30] cursor-pointer bg-[#141518]">
+          <video
+            data-preview
+            class="absolute inset-0 h-full w-full object-cover opacity-90 transition duration-700 ease-out group-hover:scale-105 group-hover:opacity-100"
+            src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+            muted loop playsinline preload="metadata"></video>
+          <div class="absolute inset-0 bg-gradient-to-t from-[#0a0a0f]/80 via-[#0a0a0f]/5 to-transparent"></div>
+          <div class="absolute inset-0 flex items-center justify-center">
+            <span class="flex h-10 w-10 sm:h-11 sm:w-11 md:h-12 md:w-12 items-center justify-center rounded-full bg-[#f28a24]/95 text-[#0a0a0f] transition-transform duration-300 group-hover:scale-110">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 md:w-5 md:h-5 ml-0.5">
+                <path d="M8 5v14l11-7z"></path>
+              </svg>
+            </span>
+          </div>
+          <div class="absolute bottom-0 left-0 p-3 md:p-4">
+            <p class="text-[9px] sm:text-[10px] md:text-xs font-medium text-[#f5f1eb]">Behind The Lens</p>
+          </div>
+        </div>
+        <!-- Video 6 -->
+        <div
+          data-bts-video
+          data-src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+          class="reveal reveal-delay-2 group relative col-span-1 row-span-1 aspect-video md:aspect-auto h-full w-full overflow-hidden rounded-2xl border border-[#2a2d30] cursor-pointer bg-[#141518]">
+          <video
+            data-preview
+            class="absolute inset-0 h-full w-full object-cover opacity-90 transition duration-700 ease-out group-hover:scale-105 group-hover:opacity-100"
+            src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+            muted loop playsinline preload="metadata"></video>
+          <div class="absolute inset-0 bg-gradient-to-t from-[#0a0a0f]/80 via-[#0a0a0f]/5 to-transparent"></div>
+          <div class="absolute inset-0 flex items-center justify-center">
+            <span class="flex h-10 w-10 sm:h-11 sm:w-11 md:h-12 md:w-12 items-center justify-center rounded-full bg-[#f28a24]/95 text-[#0a0a0f] transition-transform duration-300 group-hover:scale-110">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 md:w-5 md:h-5 ml-0.5">
+                <path d="M8 5v14l11-7z"></path>
+              </svg>
+            </span>
+          </div>
+          <div class="absolute bottom-0 left-0 p-3 md:p-4">
+            <p class="text-[9px] sm:text-[10px] md:text-xs font-medium text-[#f5f1eb]">Behind The Lens</p>
+          </div>
+        </div>
+
+      </div>
     </div>
+  </section>
 
-    <!-- Video Bento Grid -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 md:gap-5 auto-rows-auto md:auto-rows-[200px] lg:auto-rows-[230px] xl:auto-rows-[260px] grid-flow-row-dense">
-
-      <!-- Video 1: large hero -->
-      <div
-        data-bts-video
-        data-src="https://www.w3schools.com/html/mov_bbb.mp4"
-        class="reveal group relative col-span-1 row-span-1 md:col-span-2 md:row-span-2 aspect-video md:aspect-auto h-full w-full overflow-hidden rounded-2xl border border-[#2a2d30] cursor-pointer bg-[#141518]"
-      >
-        <video
-          data-preview
-          class="absolute inset-0 h-full w-full object-cover opacity-90 transition duration-700 ease-out group-hover:scale-105 group-hover:opacity-100"
-          src="https://www.w3schools.com/html/mov_bbb.mp4"
-          muted loop playsinline preload="metadata"
-        ></video>
-        <div class="absolute inset-0 bg-gradient-to-t from-[#0a0a0f]/85 via-[#0a0a0f]/10 to-transparent"></div>
-        <div class="absolute inset-0 flex items-center justify-center">
-          <span class="flex h-14 w-14 sm:h-16 sm:w-16 md:h-20 md:w-20 items-center justify-center rounded-full bg-[#f28a24]/95 text-[#0a0a0f] shadow-[0_0_0_8px_rgba(242,138,36,0.15)] transition-transform duration-300 group-hover:scale-110">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 ml-0.5">
-              <path d="M8 5v14l11-7z"></path>
-            </svg>
-          </span>
-        </div>
-        <div class="absolute bottom-0 left-0 p-3 sm:p-4 md:p-6">
-          <p class="mb-1 text-[8px] sm:text-[9px] font-semibold uppercase tracking-[0.18em] text-[#f28a24]">Video &middot; 01:24</p>
-          <p class="font-['Playfair_Display',serif] text-base sm:text-lg md:text-2xl text-[#f5f1eb]">Studio Shoot Day</p>
-        </div>
-      </div>
-
-      <!-- Video 2 -->
-      <div
-        data-bts-video
-        data-src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
-        class="reveal reveal-delay-1 group relative col-span-1 row-span-1 aspect-video md:aspect-auto h-full w-full overflow-hidden rounded-2xl border border-[#2a2d30] cursor-pointer bg-[#141518]"
-      >
-        <video
-          data-preview
-          class="absolute inset-0 h-full w-full object-cover opacity-90 transition duration-700 ease-out group-hover:scale-105 group-hover:opacity-100"
-          src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
-          muted loop playsinline preload="metadata"
-        ></video>
-        <div class="absolute inset-0 bg-gradient-to-t from-[#0a0a0f]/80 via-[#0a0a0f]/5 to-transparent"></div>
-        <div class="absolute inset-0 flex items-center justify-center">
-          <span class="flex h-10 w-10 sm:h-11 sm:w-11 md:h-12 md:w-12 items-center justify-center rounded-full bg-[#f28a24]/95 text-[#0a0a0f] transition-transform duration-300 group-hover:scale-110">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 md:w-5 md:h-5 ml-0.5">
-              <path d="M8 5v14l11-7z"></path>
-            </svg>
-          </span>
-        </div>
-        <div class="absolute bottom-0 left-0 p-3 md:p-4">
-          <p class="text-[9px] sm:text-[10px] md:text-xs font-medium text-[#f5f1eb]">Edit Bay</p>
-        </div>
-      </div>
-
-      <!-- Video 3 -->
-      <div
-        data-bts-video
-        data-src="https://www.w3schools.com/html/mov_bbb.mp4"
-        class="reveal reveal-delay-2 group relative col-span-1 row-span-1 aspect-video md:aspect-auto h-full w-full overflow-hidden rounded-2xl border border-[#2a2d30] cursor-pointer bg-[#141518]"
-      >
-        <video
-          data-preview
-          class="absolute inset-0 h-full w-full object-cover opacity-90 transition duration-700 ease-out group-hover:scale-105 group-hover:opacity-100"
-          src="https://www.w3schools.com/html/mov_bbb.mp4"
-          muted loop playsinline preload="metadata"
-        ></video>
-        <div class="absolute inset-0 bg-gradient-to-t from-[#0a0a0f]/80 via-[#0a0a0f]/5 to-transparent"></div>
-        <div class="absolute inset-0 flex items-center justify-center">
-          <span class="flex h-10 w-10 sm:h-11 sm:w-11 md:h-12 md:w-12 items-center justify-center rounded-full bg-[#f28a24]/95 text-[#0a0a0f] transition-transform duration-300 group-hover:scale-110">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 md:w-5 md:h-5 ml-0.5">
-              <path d="M8 5v14l11-7z"></path>
-            </svg>
-          </span>
-        </div>
-        <div class="absolute bottom-0 left-0 p-3 md:p-4">
-          <p class="text-[9px] sm:text-[10px] md:text-xs font-medium text-[#f5f1eb]">Reel Making</p>
-        </div>
-      </div>
-
-      <!-- Video 4: tall -->
-      <div
-        data-bts-video
-        data-src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
-        class="reveal reveal-delay-3 group relative col-span-1 row-span-1 md:row-span-2 aspect-video md:aspect-auto h-full w-full overflow-hidden rounded-2xl border border-[#2a2d30] cursor-pointer bg-[#141518]"
-      >
-        <video
-          data-preview
-          class="absolute inset-0 h-full w-full object-cover opacity-90 transition duration-700 ease-out group-hover:scale-105 group-hover:opacity-100"
-          src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
-          muted loop playsinline preload="metadata"
-        ></video>
-        <div class="absolute inset-0 bg-gradient-to-t from-[#0a0a0f]/85 via-[#0a0a0f]/10 to-transparent"></div>
-        <div class="absolute inset-0 flex items-center justify-center">
-          <span class="flex h-12 w-12 sm:h-14 sm:w-14 items-center justify-center rounded-full bg-[#f28a24]/95 text-[#0a0a0f] transition-transform duration-300 group-hover:scale-110">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 ml-0.5">
-              <path d="M8 5v14l11-7z"></path>
-            </svg>
-          </span>
-        </div>
-        <div class="absolute bottom-0 left-0 p-3 sm:p-4 md:p-5">
-          <p class="mb-1 text-[8px] sm:text-[9px] font-semibold uppercase tracking-[0.18em] text-[#f28a24]">On Location</p>
-          <p class="font-['Playfair_Display',serif] text-sm sm:text-base md:text-xl text-[#f5f1eb]">Camera &amp; Lighting Setup</p>
-        </div>
-      </div>
-
-      <!-- Video 5: wide -->
-      <div
-        data-bts-video
-        data-src="https://www.w3schools.com/html/mov_bbb.mp4"
-        class="reveal group relative col-span-1 row-span-1 md:col-span-2 aspect-video md:aspect-auto h-full w-full overflow-hidden rounded-2xl border border-[#2a2d30] cursor-pointer bg-[#141518]"
-      >
-        <video
-          data-preview
-          class="absolute inset-0 h-full w-full object-cover opacity-90 transition duration-700 ease-out group-hover:scale-105 group-hover:opacity-100"
-          src="https://www.w3schools.com/html/mov_bbb.mp4"
-          muted loop playsinline preload="metadata"
-        ></video>
-        <div class="absolute inset-0 bg-gradient-to-t from-[#0a0a0f]/85 via-[#0a0a0f]/10 to-transparent"></div>
-        <div class="absolute inset-0 flex items-center justify-center">
-          <span class="flex h-12 w-12 sm:h-14 sm:w-14 md:h-16 md:w-16 items-center justify-center rounded-full bg-[#f28a24]/95 text-[#0a0a0f] transition-transform duration-300 group-hover:scale-110">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 md:w-6 md:h-6 ml-0.5">
-              <path d="M8 5v14l11-7z"></path>
-            </svg>
-          </span>
-        </div>
-        <div class="absolute bottom-0 left-0 p-3 sm:p-4 md:p-5">
-          <p class="mb-1 text-[8px] sm:text-[9px] font-semibold uppercase tracking-[0.18em] text-[#f28a24]">Video &middot; 00:52</p>
-          <p class="font-['Playfair_Display',serif] text-sm sm:text-base md:text-xl text-[#f5f1eb]">Strategy &amp; Client Calls</p>
-        </div>
-      </div>
-
-      <!-- Video 6 -->
-      <div
-        data-bts-video
-        data-src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
-        class="reveal reveal-delay-1 group relative col-span-1 row-span-1 aspect-video md:aspect-auto h-full w-full overflow-hidden rounded-2xl border border-[#2a2d30] cursor-pointer bg-[#141518]"
-      >
-        <video
-          data-preview
-          class="absolute inset-0 h-full w-full object-cover opacity-90 transition duration-700 ease-out group-hover:scale-105 group-hover:opacity-100"
-          src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
-          muted loop playsinline preload="metadata"
-        ></video>
-        <div class="absolute inset-0 bg-gradient-to-t from-[#0a0a0f]/80 via-[#0a0a0f]/5 to-transparent"></div>
-        <div class="absolute inset-0 flex items-center justify-center">
-          <span class="flex h-10 w-10 sm:h-11 sm:w-11 md:h-12 md:w-12 items-center justify-center rounded-full bg-[#f28a24]/95 text-[#0a0a0f] transition-transform duration-300 group-hover:scale-110">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 md:w-5 md:h-5 ml-0.5">
-              <path d="M8 5v14l11-7z"></path>
-            </svg>
-          </span>
-        </div>
-        <div class="absolute bottom-0 left-0 p-3 md:p-4">
-          <p class="text-[9px] sm:text-[10px] md:text-xs font-medium text-[#f5f1eb]">Behind The Lens</p>
-        </div>
-      </div>
-       <!-- Video 6 -->
-      <div
-        data-bts-video
-        data-src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
-        class="reveal reveal-delay-2 group relative col-span-1 row-span-1 aspect-video md:aspect-auto h-full w-full overflow-hidden rounded-2xl border border-[#2a2d30] cursor-pointer bg-[#141518]"
-      >
-        <video
-          data-preview
-          class="absolute inset-0 h-full w-full object-cover opacity-90 transition duration-700 ease-out group-hover:scale-105 group-hover:opacity-100"
-          src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
-          muted loop playsinline preload="metadata"
-        ></video>
-        <div class="absolute inset-0 bg-gradient-to-t from-[#0a0a0f]/80 via-[#0a0a0f]/5 to-transparent"></div>
-        <div class="absolute inset-0 flex items-center justify-center">
-          <span class="flex h-10 w-10 sm:h-11 sm:w-11 md:h-12 md:w-12 items-center justify-center rounded-full bg-[#f28a24]/95 text-[#0a0a0f] transition-transform duration-300 group-hover:scale-110">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 md:w-5 md:h-5 ml-0.5">
-              <path d="M8 5v14l11-7z"></path>
-            </svg>
-          </span>
-        </div>
-        <div class="absolute bottom-0 left-0 p-3 md:p-4">
-          <p class="text-[9px] sm:text-[10px] md:text-xs font-medium text-[#f5f1eb]">Behind The Lens</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- =========================================================
+  <!-- =========================================================
      LIGHTBOX MODAL (VIDEO ONLY)
 ========================================================= -->
-<div id="btsModal" class="fixed inset-0 z-[999] hidden items-center justify-center bg-[#0a0a0f]/95 backdrop-blur-sm px-3 sm:px-6">
-  <button id="btsClose" aria-label="Close" class="absolute top-4 right-4 sm:top-6 sm:right-6 md:top-10 md:right-10 flex h-9 w-9 sm:h-10 sm:w-10 items-center justify-center rounded-full border border-[#2a2d30] text-[#f5f1eb] transition hover:border-[#f28a24] hover:text-[#f28a24]">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="w-4 h-4 sm:w-5 sm:h-5">
-      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
-    </svg>
-  </button>
-  <video id="btsVideo" class="w-full max-w-4xl max-h-[80vh] rounded-xl bg-black" controls playsinline autoplay></video>
-</div>
+  <div id="btsModal" class="fixed inset-0 z-[999] hidden items-center justify-center bg-[#0a0a0f]/95 backdrop-blur-sm px-3 sm:px-6">
+    <button id="btsClose" aria-label="Close" class="absolute top-4 right-4 sm:top-6 sm:right-6 md:top-10 md:right-10 flex h-9 w-9 sm:h-10 sm:w-10 items-center justify-center rounded-full border border-[#2a2d30] text-[#f5f1eb] transition hover:border-[#f28a24] hover:text-[#f28a24]">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="w-4 h-4 sm:w-5 sm:h-5">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+      </svg>
+    </button>
+    <video id="btsVideo" class="w-full max-w-4xl max-h-[80vh] rounded-xl bg-black" controls playsinline autoplay></video>
+  </div>
 
- 
+
 
   <!-- =========================================
      AUTO LOGO SCROLL
@@ -1805,13 +1791,25 @@
 
         animate();
 
-        viewport.addEventListener("mouseenter", function() { isPaused = true; });
-        viewport.addEventListener("mouseleave", function() { isPaused = false; });
+        viewport.addEventListener("mouseenter", function() {
+          isPaused = true;
+        });
+        viewport.addEventListener("mouseleave", function() {
+          isPaused = false;
+        });
 
-        viewport.addEventListener("touchstart", function() { isPaused = true; }, { passive: true });
+        viewport.addEventListener("touchstart", function() {
+          isPaused = true;
+        }, {
+          passive: true
+        });
         viewport.addEventListener("touchend", function() {
-          setTimeout(function() { isPaused = false; }, 800);
-        }, { passive: true });
+          setTimeout(function() {
+            isPaused = false;
+          }, 800);
+        }, {
+          passive: true
+        });
 
         window.addEventListener("resize", function() {
           originalWidth = getOriginalWidth();
@@ -1822,48 +1820,53 @@
       setupMarquee("brandLogoTrack2", "brandLogoViewport2", ".brand-logo-2");
 
 
-     (function () {
-    var modal = document.getElementById('btsModal');
-    var modalVideo = document.getElementById('btsVideo');
-    var closeBtn = document.getElementById('btsClose');
-    var tiles = document.querySelectorAll('[data-bts-video]');
+      (function() {
+        var modal = document.getElementById('btsModal');
+        var modalVideo = document.getElementById('btsVideo');
+        var closeBtn = document.getElementById('btsClose');
+        var tiles = document.querySelectorAll('[data-bts-video]');
 
-    // Hover-to-preview on desktop (muted inline preview already looping by default is avoided;
-    // videos start paused, play only on hover/touch to save bandwidth)
-    tiles.forEach(function (tile) {
-      var preview = tile.querySelector('[data-preview]');
+        // Hover-to-preview on desktop (muted inline preview already looping by default is avoided;
+        // videos start paused, play only on hover/touch to save bandwidth)
+        tiles.forEach(function(tile) {
+          var preview = tile.querySelector('[data-preview]');
 
-      tile.addEventListener('mouseenter', function () {
-        if (preview) { preview.currentTime = 0; preview.play().catch(function () {}); }
-      });
-      tile.addEventListener('mouseleave', function () {
-        if (preview) { preview.pause(); }
-      });
+          tile.addEventListener('mouseenter', function() {
+            if (preview) {
+              preview.currentTime = 0;
+              preview.play().catch(function() {});
+            }
+          });
+          tile.addEventListener('mouseleave', function() {
+            if (preview) {
+              preview.pause();
+            }
+          });
 
-      tile.addEventListener('click', function () {
-        var src = tile.getAttribute('data-src');
-        modal.classList.remove('hidden');
-        modal.classList.add('flex');
-        modalVideo.src = src;
-        modalVideo.play().catch(function () {});
-      });
-    });
+          tile.addEventListener('click', function() {
+            var src = tile.getAttribute('data-src');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+            modalVideo.src = src;
+            modalVideo.play().catch(function() {});
+          });
+        });
 
-    function closeModal() {
-      modal.classList.add('hidden');
-      modal.classList.remove('flex');
-      modalVideo.pause();
-      modalVideo.removeAttribute('src');
-    }
+        function closeModal() {
+          modal.classList.add('hidden');
+          modal.classList.remove('flex');
+          modalVideo.pause();
+          modalVideo.removeAttribute('src');
+        }
 
-    closeBtn.addEventListener('click', closeModal);
-    modal.addEventListener('click', function (e) {
-      if (e.target === modal) closeModal();
-    });
-    document.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape') closeModal();
-    });
-  })();
+        closeBtn.addEventListener('click', closeModal);
+        modal.addEventListener('click', function(e) {
+          if (e.target === modal) closeModal();
+        });
+        document.addEventListener('keydown', function(e) {
+          if (e.key === 'Escape') closeModal();
+        });
+      })();
 
 
       /* ==========================================
@@ -1879,7 +1882,10 @@
             revealObserver.unobserve(entry.target);
           }
         });
-      }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+      }, {
+        threshold: 0.15,
+        rootMargin: '0px 0px -40px 0px'
+      });
 
       document.querySelectorAll('.reveal').forEach(el => {
         revealObserver.observe(el);

@@ -330,7 +330,7 @@
             <div class="reveal flex items-center justify-center lg:justify-end">
 
                 <img
-                    src="./assets/creativeBrand.png"
+                    src="./assets/creativeBrand.png "
                     alt="Creative Branding"
                     class="h-auto w-full max-w-[520px] object-contain">
 
